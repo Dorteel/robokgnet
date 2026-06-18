@@ -1,3 +1,6 @@
+# Sources
+sources/
+
 # Virtual environments and local configuration
 .venv/
 venv/
