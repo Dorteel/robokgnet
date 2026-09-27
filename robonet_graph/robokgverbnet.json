@@ -1,0 +1,12 @@
+{
+  "frame": {
+    "agent": null,
+    "destination": null,
+    "source": null,
+    "theme": null
+  },
+  "id": "bring-11.3",
+  "members": [
+    "take"
+  ]
+}

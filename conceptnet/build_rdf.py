@@ -3,7 +3,7 @@ import argparse
 import json
 from pathlib import Path
 from urllib.parse import quote
-from rdflib import Graph, Namespace, Literal, URIRef, RDFS, XSD
+from rdflib import Graph, Namespace, Literal, URIRef, RDFS, SKOS, XSD
 
 GRAPH_DIR = Path(__file__).resolve().parents[1] / 'robonet_graph'
 HIST = Namespace('https://w3id.org/robokgnet/location#')
@@ -15,6 +15,10 @@ def build_graph(document):
     for name, node in document['nodes'].items():
         subject = ns[quote(name, safe='')]
         graph.add((subject, RDFS.label, Literal(node['type'])))
+        for label in node['alternative_names']:
+            graph.add((subject, SKOS.altLabel, Literal(label)))
+        for parent in node['superclass']:
+            graph.add((subject, RDFS.subClassOf, ns[quote(parent, safe='')]))
         for location, entry in node['qualities']['location'].items():
             uri = URIRef(str(subject) + '/location/' + quote(location, safe=''))
             graph.add((subject, HIST.location, uri))
@@ -38,7 +42,7 @@ def build_graph(document):
 
 def convert(input_path, output_path):
     graph = build_graph(json.loads(Path(input_path).read_text()))
-    prefixes = {'location': HIST, 'rdfs': RDFS, 'xsd': XSD}
+    prefixes = {'location': HIST, 'rdfs': RDFS, 'xsd': XSD, 'skos': SKOS}
     for prefix, namespace in prefixes.items():
         graph.bind(prefix, namespace, replace=True)
     header = ''.join(f'@prefix {p}: <{ns}> .\n' for p, ns in sorted(prefixes.items()))

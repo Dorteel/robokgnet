@@ -1,0 +1,121 @@
+{
+  "bring-11.3": {
+    "additional_frame_elements": {
+      "Agent": {
+        "description": "The Agent is a sentient being who physically controls the movement of the Theme via the carrier, accompanying the Theme. 'Karl carried the books across the campus to the library.'"
+      },
+      "Area": {
+        "description": "Area is used for descriprion of a general area in which the carrying action takes place when the motion is understood to be irregular or not to consist of a single, linear path."
+      },
+      "Beneficiary": {
+        "description": "This FE describes the particpant for whom the bringing is beneficial. "
+      },
+      "Carrier": {
+        "description": "The Carrier provides support for the Theme.  Movement of the Carrier results in movement of the Theme. 'The boat ferried the troops across the river.'"
+      },
+      "Co-participant": {
+        "description": "Co_participant is an entity that participates in a coordinated way in the same event as the primary protagonist, regardless of whether the protagonist, and hence the Co-participant, is more agent- or more undergoer-like."
+      },
+      "Constant_location": {
+        "description": "The Constant_location expresses the location of the Theme relative to the Carrier.  This relationship holds for the entire length of the carrying event.  'Karl took the books to the library in his car.' 'Karl carried the books to the library in his arms.'"
+      },
+      "Degree": {
+        "description": "This frame element selects some gradable attribute and modifies the expected value for it."
+      },
+      "Depictive": {
+        "description": "Depictive identifies a phrase describing the Carrier, Agent or Theme."
+      },
+      "Distance": {
+        "description": "This FE identifies the Distance the Theme is carried."
+      },
+      "Duration": {
+        "description": "Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others it is simply an undifferentiated state."
+      },
+      "Explanation": {
+        "description": "Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. "
+      },
+      "Frequency": {
+        "description": "This frame element is used to indicate the location of a participant in cases where the multiple participants of an event are not co-located in the typical fashion. "
+      },
+      "Goal": {
+        "description": "Goal identifies the endpoint of the path.    'Karl carried the books to the library.'"
+      },
+      "Manner": {
+        "description": "This FE identifies the Manner  in which the Carrier or Agent carries the Theme ."
+      },
+      "Means": {
+        "description": "The actions the Agent takes to move the Theme. 'The books were taken to the library by helicopter deliveries.' 'I haul books by putting them on top of my head.'"
+      },
+      "Particular_iteration": {
+        "description": "Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states."
+      },
+      "Path": {
+        "description": "Path along which carrying occurs. 'Karl carried the books across the campus.' "
+      },
+      "Period_of_iterations": {
+        "description": "This FE is minimally distinct from Duration and Duration_of final_state in that the clause described is conveyed to be iterative."
+      },
+      "Place": {
+        "description": "The Place is the general area that serves as a setting for the specific motion of the Agent and Theme (with Source, Path, or Goal).   'Even in such a small port, these boats would transport many tons of trade-goods in to shore annually.'"
+      },
+      "Purpose": {
+        "description": "The Purpose for which the Carrier or Agent carries the Theme . 'We had to carry the heavy weights all the way to the top of the hillto show our strength.'"
+      },
+      "Source": {
+        "description": "Source indicates the beginning of the path along which the Theme travels.    'Karl hauled the books from the library  to the office.' "
+      },
+      "Speed": {
+        "description": "The Speed is the rate at which the carrying or transporting occurs."
+      },
+      "Theme": {
+        "description": "The objects being carried. 'Karl toted the books to the car.' "
+      },
+      "Time": {
+        "description": "The time in which the carrying event takes place."
+      }
+    },
+    "evoking_words": [
+      "airlift",
+      "bear",
+      "bike",
+      "bring",
+      "bus",
+      "carry",
+      "cart",
+      "convey",
+      "drive",
+      "ferry",
+      "fetch",
+      "fly",
+      "get",
+      "haul",
+      "hump",
+      "jet",
+      "lug",
+      "mobile",
+      "motor",
+      "paddle",
+      "portable",
+      "row",
+      "schlep",
+      "shuttle",
+      "take",
+      "tote",
+      "transport",
+      "truck",
+      "trundle",
+      "wheel"
+    ],
+    "frame": {
+      "agent": null,
+      "destination": null,
+      "source": null,
+      "theme": null
+    },
+    "framenet_frame": "Bringing",
+    "id": "bring-11.3",
+    "members": [
+      "take"
+    ]
+  }
+}

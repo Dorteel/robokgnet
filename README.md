@@ -1,9 +1,27 @@
 # RoboKGNet
 
-RoboKGNet is a knowledge-resource repository for robot semantics. It currently
-provides **WordNet, demo VerbNet/FrameNet,** and separate **ConceptNet
-AtLocation graph with explicit WordNet 3.1 mapping candidates**. All have
-inspectable JSON intermediates and generated Turtle artifacts.
+RoboKGNet provides schema-shaped WordNet object types, ConceptNet-seeded location
+histograms, and small VerbNet/FrameNet demo resources. Canonical JSON artifacts
+are human-readable; Turtle files are generated machine representations.
+
+## RoboKGNet creation
+
+With the project environment activated, rebuild the four canonical JSON resources:
+
+```bash
+python recreate_robokgnet.py
+```
+
+See [the creation pipeline](docs/robokgnet_creation.md) for inputs, schemas,
+setup, and individual stage commands.
+
+## Add an action frame
+
+See [action frame creation](docs/action_frame_creation.md) for schema and alignment requirements.
+
+```bash
+python add_action_frame.py --verbnet-class <class> --schema <schema>
+```
 
 ## Explore visually
 
@@ -18,9 +36,9 @@ or `--graph conceptnet` to load just one artifact. Use `--no-browser` to print t
 URL without opening a browser, and optionally `--port 8765` for a fixed port.
 Stop with Ctrl+C. No internet connection or JavaScript library is needed.
 
-The default **Simplified semantic view** starts at **book** when ConceptNet is
-loaded. Search `book` to center automatically and see direct relations such as
-`book —AtLocation→ bed`, `floor`, `row`, and `stack`. Labels omit `/c/en/` and
+The default **Simplified semantic view** starts at an enriched object when
+ConceptNet is loaded. Search `aircraft` to inspect its seeded `sky` location.
+Book has no histogram because its explicit source mappings are unresolved. Labels omit `/c/en/` and
 replace underscores with spaces; exact resource URIs remain in the inspector.
 
 - **View** switches between **Simplified semantic view** and **Raw RDF view**.
@@ -46,15 +64,15 @@ caption; the viewer does not invent names or resolve ambiguous mappings.
 | Resource | Content | Generated artifacts |
 | --- | --- | --- |
 | WordNet 3.0 | 29,581 schema-shaped physical-object types | [robokgwordnet.json](robonet_graph/robokgwordnet.json), [robokgwordnet.ttl](robonet_graph/robokgwordnet.ttl) |
-| ConceptNet AtLocation | All 261 source assertions; explicit candidate mappings on both endpoints | [aligned JSON](robonet_graph/conceptnet_atlocation_aligned.json), [robokgconceptnet.ttl](robonet_graph/robokgconceptnet.ttl) |
-| VerbNet 2.1 | bring/search class scopes: formal roles and structured event semantics | [verbnet.json](robonet_graph/verbnet.json), [robokgverbnet.ttl](robonet_graph/robokgverbnet.ttl) |
+| ConceptNet AtLocation | Exact object-backbone copy with integer location histograms only | [robokgconceptnet.json](robonet_graph/robokgconceptnet.json) |
+| VerbNet 2.1 | Schema-valid bring-11.3 template plus four role definitions and six formal semantic frames | [robokgverbnet.json](robonet_graph/robokgverbnet.json), [robokgverbnet.ttl](robonet_graph/robokgverbnet.ttl) |
 | FrameNet 1.7 + SemLink | Bringing/Scrutiny: definitions, Frame Elements, evoking lexical units, explicit member alignments | [framenet.json](robonet_graph/framenet.json), [robokgframenet.ttl](robonet_graph/robokgframenet.ttl) |
 | Planning prototype | RDFS builder and static task/YAML/PDDL resources; not connected to the generated graphs | [planning.py](planning.py), `bringup/` |
 
-**The generated graphs remain separate resources.** ConceptNet's mapping
-file targets WordNet 3.1, while the lexical backbone is WordNet 3.0. Some mapping
-targets are phrase components rather than synsets. “Both” viewer mode displays
-the union without inventing cross-version links.
+**Artifacts remain separately generated.** Numeric ConceptNet WordNet 3.1
+mappings now connect to the 3.0 object backbone through exact shared sense keys;
+all candidates and unresolved cases are preserved. No label-based sense guessing
+or runtime learning is performed.
 
 ## Setup
 
@@ -65,11 +83,11 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r wordnet/requirements.txt
 ```
 
-The viewer currently supports WordNet and ConceptNet only. This is enough to view the existing TTL files or rebuild ConceptNet. To regenerate
-WordNet or run its tests, explicitly download its corpus:
+The viewer currently supports WordNet and ConceptNet only. This is enough to view the existing TTL files. Regeneration and corpus-backed
+tests require the following explicit corpus setup:
 
 ```bash
-.venv/bin/python -m nltk.downloader -d .venv/nltk_data wordnet verbnet framenet_v17
+.venv/bin/python -m nltk.downloader -d .venv/nltk_data wordnet wordnet31 verbnet framenet_v17
 ```
 
 ## Build and test
@@ -77,10 +95,9 @@ WordNet or run its tests, explicitly download its corpus:
 ```bash
 NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B wordnet_to_robokgwordnet.py --schema schemas/objects.json --root object.n.01 --output robonet_graph/robokgwordnet.json
 .venv/bin/python -B wordnet/build_rdf.py
-.venv/bin/python -B conceptnet/align_conceptnet_wordnet.py
-.venv/bin/python -B conceptnet/build_rdf.py
-NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B action_knowledge/build_json.py
-.venv/bin/python -B action_knowledge/build_rdf.py
+NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B conceptnet_to_robokgconceptnet.py
+NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B verbnet_to_robokgverbnet.py
+# FrameNet is a separate, unchanged resource; its legacy pipeline is documented separately.
 NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B -m unittest discover -s tests -v
 ```
 
@@ -116,7 +133,7 @@ ki.resolve_wordnet("mug")          # List of exported synset candidates and labe
 ki.get_frame_for_word("bring")     # List of FrameNet frame names from evoking words
 ki.get_verbnet_class("Bringing")   # List of exported VerbNet class scopes
 ki.describe_action("bring")        # Combined frame/class candidates with evidence
-ki.get_at_locations("book")        # Stored assertions, exact identities and mappings
+ki.get_at_locations("aircraft")    # Seed histogram, counts, and grounding IDs
 ```
 
 Hierarchy methods `get_superclasses()` and `get_subclasses()` accept canonical
@@ -128,9 +145,10 @@ reduced to a preferred sense or frame. `describe_action()` returns
 `{word, frame_candidates: [...]}`; each frame includes `verbnet_candidates` and
 member-specific alignment records, so multiple interpretations remain explicit.
 
-AtLocation accepts an exact ConceptNet label/URI or original WordNet 3.1 mapping
-target. It does not guess a cross-version link from a WordNet 3.0 synset. Results
-retain subject candidates, all endpoint mappings, assertion IDs, and no weights.
+AtLocation accepts a grounded subject's label, canonical synset ID, URI, or
+recorded source grounding. Results expose seed/observation/total counts and all
+location IDs. Book currently returns no result: its phrase-component source
+mappings cannot be safely grounded to the object backbone.
 This layer is a lookup interface, not an instruction parser or Scenario builder.
 The older interface inside `planning.py` remains a separate prototype, not the
 entry point for current generated resources.
@@ -156,3 +174,23 @@ unchanged copy of CMOC's `schemas/objects.json`. It uses `id`, lexical `type`,
 qualities. Turtle is only a generated machine artifact. See
 [wordnet/README.md](wordnet/README.md) for the node example, schema-nullability
 limitation, generic root API, and focused tiny-subtree tests.
+
+## Simplified VerbNet source
+
+[robokgverbnet.json](robonet_graph/robokgverbnet.json) is now the canonical
+**bring-11.3-only** resource. CMOC's unchanged schema defines the four nullable
+entity slots in `frame`; source role restrictions and ordered semantics are
+class-level annotations alongside it. Search and subclass semantics are not
+imported. See [verbnet/README.md](verbnet/README.md) for the exact schema boundary,
+regeneration command, and focused tests. The generator writes JSON only; existing
+VerbNet TTL is not regenerated. WordNet and ConceptNet are unchanged.
+
+## Current ConceptNet JSON simplification
+
+The canonical ConceptNet JSON now copies every WordNet node unchanged except
+for populated `qualities.location` values of the form `{"sky.n.01": 1}`.
+Unsafe or ambiguous mappings are skipped, never distributed over candidates;
+diagnostics appear only in the terminal. No Turtle was regenerated in this step.
+The existing ConceptNet TTL, viewer and TTL-based interface still reflect the
+previous representation until separately migrated. See
+[conceptnet/README.md](conceptnet/README.md) for the current JSON-only command.

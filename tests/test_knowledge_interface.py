@@ -1,68 +1,109 @@
-"""Small public API checks against the generated resources."""
+"""API checks use temporary JSON exclusively, never writable real resources."""
 import json
 from pathlib import Path
 import tempfile
 import unittest
-from knowledge_interface import KnowledgeInterface
 
-ROOT = Path(__file__).resolve().parents[1]
+from knowledge_interface import KnowledgeInterface
 
 
 class KnowledgeInterfaceTests(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.ki = KnowledgeInterface()
+    def setUp(self):
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.concepts_path = Path(directory.name) / "concepts.json"
+        self.actions_path = Path(directory.name) / "actions.json"
+        self.concepts = {
+            "root": "object.n.01", "wordnet_version": "3.0",
+            "nodes": {
+                "mug.n.04": {
+                    "id": "mug.n.04", "type": "mug", "alternative_names": ["coffee_mug"],
+                    "superclass": ["drinking_vessel.n.01"], "qualities": {"location": None},
+                },
+                "mug.n.01": {
+                    "id": "mug.n.01", "name": "mug", "alternative_names": [],
+                    "superclass": [], "qualities": {"location": {}},
+                },
+            },
+        }
+        self.action = {
+            "id": "bring-11.3", "members": ["take"], "framenet_frame": "Bringing",
+            "frame": {"source": None, "custom_role": {
+                "framenet_element": "Theme", "description": "Stored description.",
+            }},
+            "additional_frame_elements": {"Goal": {"description": "Stored goal."}},
+        }
+        self.concepts_path.write_text(json.dumps(self.concepts))
+        self.actions_path.write_text(json.dumps(self.action))
+        self.ki = KnowledgeInterface(self.concepts_path, self.actions_path)
 
-    def test_resources_wordnet_and_hierarchy(self):
-        self.assertEqual(set(self.ki.loaded_resources), {'wordnet', 'conceptnet', 'verbnet', 'framenet'})
-        self.assertTrue(all(p.is_absolute() and p.exists() for p in self.ki.loaded_resources.values()))
-        candidates = self.ki.resolve_wordnet('mug')
-        self.assertGreater(len(candidates), 1)
-        self.assertIn('mug.n.04', {r['synset_id'] for r in candidates})
-        self.assertTrue(all(r['label'] and r['uri'] for r in candidates))
-        self.assertEqual([r['synset_id'] for r in self.ki.get_superclasses('mug.n.04')], ['drinking_vessel.n.01'])
-        self.assertIn('mug.n.04', {r['synset_id'] for r in self.ki.get_subclasses('drinking_vessel.n.01')})
+    def test_concept_resolution_and_hierarchy(self):
+        node = self.concepts["nodes"]["mug.n.04"]
+        self.assertEqual(self.ki.get_concept("mug.n.04"), node)
+        self.assertEqual(self.ki.resolve_concept("mug.n.04"), [node])
+        self.assertEqual(self.ki.resolve_concept("COFFEE_MUG"), [node])
+        self.assertEqual(len(self.ki.resolve_concept("MUG")), 2)
+        self.assertEqual(self.ki.get_alternative_names("mug.n.04"), ["coffee_mug"])
+        self.assertEqual(self.ki.get_superclasses("mug.n.04"), ["drinking_vessel.n.01"])
+        self.assertEqual(self.ki.describe("mug"), self.ki.resolve_concept("mug"))
+        self.assertIsNone(self.ki.describe("unknown"))
+        with self.assertRaises(KeyError):
+            self.ki.get_concept("unknown")
 
-    def test_action_lookup_and_structured_semantics(self):
-        source = json.loads((ROOT / 'robonet_graph/verbnet.json').read_text())
-        for word, frame, cls in [('bring', 'Bringing', 'bring-11.3'), ('search', 'Scrutiny', 'search-35.2')]:
-            self.assertIn(frame, self.ki.get_frame_for_word(word))
-            self.assertEqual(self.ki.get_verbnet_class(frame), [cls])
-            self.assertEqual(self.ki.get_verbnet_class(word), [cls])
-            descriptions = self.ki.get_role_descriptions(frame)
-            self.assertTrue(descriptions)
-            self.assertTrue(all(descriptions.values()))
-            semantics = self.ki.get_verbnet_semantics(cls)
-            self.assertEqual([f['semantics'] for f in semantics], [f['semantics'] for f in source['classes'][cls]['frames']])
-            combined = self.ki.describe_action(word)['frame_candidates']
-            match = next(r for r in combined if r['framenet_frame'] == frame)
-            self.assertEqual(match['verbnet_candidates'][0]['verbnet_class'], cls)
-            self.assertTrue(all(r['member'] == word for r in match['alignments']))
-        self.assertEqual({r['name'] for r in self.ki.get_verbnet_roles('bring-11.3')}, {'Agent', 'Theme', 'Source', 'Destination'})
-        self.assertIn('Agent', self.ki.get_role_descriptions('Bringing'))
+    def test_updates_save_and_reload(self):
+        original = self.concepts_path.read_bytes()
+        actions_before = self.actions_path.read_bytes()
+        self.assertEqual(self.ki.get_locations("mug.n.04"), [])
+        self.assertEqual(self.ki.get_locations("mug.n.01"), [])
+        self.ki.update_location("mug.n.04", "kitchen.n.01")
+        self.ki.update_location("mug.n.04", "kitchen.n.01")
+        self.ki.update_location("mug.n.04", "table.n.01", 3)
+        self.assertEqual(self.ki.get_locations("mug.n.04"),
+                         [("table.n.01", 3), ("kitchen.n.01", 2)])
+        self.assertEqual(self.concepts_path.read_bytes(), original)
+        self.ki.save()
+        reloaded = KnowledgeInterface(self.concepts_path, self.actions_path)
+        self.assertEqual(reloaded.get_locations("mug.n.04"), self.ki.get_locations("mug.n.04"))
+        first = self.concepts_path.read_bytes()
+        reloaded.save()
+        self.assertEqual(self.concepts_path.read_bytes(), first)
+        self.assertEqual(self.actions_path.read_bytes(), actions_before)
 
-    def test_locations_and_unknowns(self):
-        results = self.ki.get_at_locations('book')
-        self.assertEqual({r['location'] for r in results}, {'bed', 'floor', 'row', 'stack'})
-        self.assertEqual(results, self.ki.get_at_locations('/c/en/book'))
-        for r in results:
-            self.assertEqual(r['wordnet_version'], '3.1')
-            self.assertEqual(len(r['subject_wordnet_mappings']), 2)
-            self.assertTrue(r['wordnet_mappings'])
-            self.assertNotIn('weight', r)
-        self.assertEqual(self.ki.get_at_locations(results[0]['subject_wordnet_mappings'][0]), results)
-        self.assertEqual(self.ki.get_at_locations('book.n.01'), [])  # No guessed 3.0/3.1 bridge.
-        for method in ('resolve_wordnet','get_superclasses','get_subclasses','get_frame_for_word',
-                       'get_frame_elements','get_verbnet_class','get_verbnet_roles','get_verbnet_semantics','get_at_locations'):
-            self.assertEqual(getattr(self.ki, method)('not_a_real_resource'), [], method)
-        self.assertEqual(self.ki.get_role_descriptions('not_a_real_resource'), {})
-        self.assertEqual(self.ki.describe_action('not_a_demo_action')['frame_candidates'], [])
+    def test_validation_and_copy_isolation(self):
+        for increment in (0, -1, True, 1.5, "1"):
+            with self.assertRaises(ValueError):
+                self.ki.update_location("mug.n.04", "kitchen.n.01", increment)
+        for location in ("", "  ", None, 5):
+            with self.assertRaises(ValueError):
+                self.ki.update_location("mug.n.04", location)
+        with self.assertRaises(KeyError):
+            self.ki.update_location("unknown", "kitchen.n.01")
+        node = self.ki.get_concept("mug.n.04")
+        node["qualities"]["location"] = {"fake": 99}
+        self.assertEqual(self.ki.get_locations("mug.n.04"), [])
 
-    def test_missing_graph_error(self):
-        with tempfile.TemporaryDirectory() as directory:
-            with self.assertRaisesRegex(FileNotFoundError, 'Missing RoboKGNet graph.*robokgwordnet.ttl'):
-                KnowledgeInterface(directory)
+    def test_action_and_dynamic_roles(self):
+        self.assertEqual(self.ki.get_action("bring-11.3"), self.action)
+        self.assertEqual(self.ki.resolve_action("bring-11.3"), [self.action])
+        self.assertEqual(self.ki.resolve_action("TAKE"), [self.action])
+        self.assertEqual(self.ki.resolve_action("bring"), [])
+        self.assertEqual(self.ki.get_action_frame("bring-11.3"), self.action["frame"])
+        self.assertEqual(self.ki.get_frame_roles("bring-11.3"), ["source", "custom_role"])
+        self.assertIsNone(self.ki.get_role("bring-11.3", "source"))
+        self.assertEqual(self.ki.get_role("bring-11.3", "custom_role"),
+                         self.action["frame"]["custom_role"])
+        self.assertEqual(self.ki.get_additional_frame_elements("bring-11.3"),
+                         self.action["additional_frame_elements"])
+        self.assertEqual(self.ki.describe("take"), [self.action])
+        with self.assertRaises(KeyError):
+            self.ki.get_action("unknown")
+
+    def test_loads_once(self):
+        self.concepts_path.unlink()
+        self.actions_path.unlink()
+        self.assertTrue(self.ki.resolve_concept("mug"))
+        self.assertTrue(self.ki.resolve_action("take"))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

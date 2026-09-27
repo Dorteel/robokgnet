@@ -12,7 +12,18 @@ from tools.view_robokgnet import Viewer, handler_for, WN, CN, AT_LOCATION, MAPPI
 
 class ViewerTests(unittest.TestCase):
     def test_real_conceptnet_semantic_projection_and_filters(self):
-        graph = Graph().parse(Path(__file__).resolve().parents[1] / 'robonet_graph/robokgconceptnet.ttl')
+        graph = Graph()
+        # Legacy reification remains viewable; the canonical graph now has histograms.
+        book_uri = URIRef('http://api.conceptnet.io/c/en/book')
+        graph.add((book_uri, RDF.type, URIRef(CN + 'ConceptNetConcept')))
+        for name in ('bed', 'floor', 'row', 'stack'):
+            obj = URIRef('http://api.conceptnet.io/c/en/' + name)
+            assertion = URIRef('urn:assertion:' + name)
+            graph.add((obj, RDF.type, URIRef(CN + 'ConceptNetConcept')))
+            for predicate, value in [(RDF.type, URIRef(CN + 'AtLocationAssertion')), (RDF.subject, book_uri), (RDF.predicate, AT_LOCATION), (RDF.object, obj)]:
+                graph.add((assertion, predicate, value))
+        for target in ('100000001-n', '100000002-n'):
+            graph.add((book_uri, MAPPING, URIRef('http://wordnet-rdf.princeton.edu/wn31/' + target)))
         before = set(graph)
         viewer = Viewer(graph, 'conceptnet')
         book = 'http://api.conceptnet.io/c/en/book'

@@ -13,24 +13,28 @@ flowchart TD
   W --> J[robonet_graph/robokgwordnet.json]
   J --> R[wordnet/build_rdf.py]
   R --> T[robonet_graph/robokgwordnet.ttl]
-  C[filtered_conceptnet.csv: only AtLocation rows selected] --> A[conceptnet/align_conceptnet_wordnet.py]
+  C[filtered_conceptnet.csv: only AtLocation rows selected] --> A[conceptnet_to_robokgconceptnet.py]
   M[conceptnet_wordnet_mappings.csv: WordNet 3.1 targets] --> A
-  A --> AJ[robonet_graph/conceptnet_atlocation_aligned.json]
+  J --> A
+  A --> AJ[robonet_graph/robokgconceptnet.json]
   AJ --> AR[conceptnet/build_rdf.py]
   AR --> AT[robonet_graph/robokgconceptnet.ttl]
   T --> V[tools/view_robokgnet.py]
   AT --> V
   AC[NLTK VerbNet / FrameNet + SemLink demo evidence] --> AB[action_knowledge/build_json.py]
-  AB --> AV[verbnet.json + framenet.json]
+  AB --> AV[historical verbnet.json + framenet.json]
   AV --> ARDF[action_knowledge/build_rdf.py]
-  ARDF --> VT[robokgverbnet.ttl]
+  VS[CMOC bring schema + VerbNet] --> VB[verbnet_to_robokgverbnet.py]
+  VB --> VJ[robokgverbnet.json]
+  VJ --> VR[verbnet/build_rdf.py]
+  VR --> VT[robokgverbnet.ttl]
   ARDF --> FT[robokgframenet.ttl]
   V --> UI[Local browser: searchable RDF neighborhoods]
 ```
 
-There is deliberately **no identity link between WordNet 3.0 and 3.1** in this
-pipeline. Loading both TTL files into one viewer is a read-only RDF union, not
-an alignment, inference step, or change to either graph.
+Numeric ConceptNet 3.1 mappings are now linked to 3.0 backbone candidates through
+exact shared lemma sense keys. This is not automatic ID equivalence: ambiguous
+and unresolved mappings remain explicit. No viewer-side guesses are made.
 
 ## What exists now
 
@@ -49,22 +53,17 @@ an alignment, inference step, or change to either graph.
 - WordNet reader adaptations preserve viewer/interface access without changing
   ConceptNet, FrameNet, VerbNet, planning, or learned-memory content.
 
-### ConceptNet AtLocation backbone
+### ConceptNet AtLocation histograms
 
-- Source CSV retains AtLocation, IsA, and UsedFor; the exporter reads only
-  **261 AtLocation rows**, all retained.
-- Both endpoints retain their ConceptNet identities and all explicit mapping
-  candidates. **127 distinct subject concepts**, **99 object concepts**;
-  **57 ambiguous subjects**, **36 ambiguous objects**; no unmapped endpoints
-  in the current source. These are concept counts per role, not row counts.
-- Targets remain Princeton WordNet **3.1** URIs. They are not automatically
-  verified synsets: some are lexical/phrase resources. No sense choice,
-  cross-version conversion, or guessed mapping is made.
-- RDF assertions link `rdf:subject`, `rdf:predicate`, and `rdf:object`; concepts
-  link through `mapsToWordNet`. Source hashes retain provenance. Two source
-  targets need backtick escaping in RDF; their original strings are preserved.
-- **2,410 RDF triples**; JSON **166,903 bytes**, Turtle **302,999 bytes**.
-  No weights, observation counts, or runtime updates exist yet.
+The current canonical `robokgconceptnet.json` contains 27 enriched WordNet object
+concepts. `conceptnet_to_robokgconceptnet.py` processes 261 AtLocation rows: 19 have
+explicit subject mappings into the backbone; 242 remain unapplied with reasons.
+Numeric WordNet 3.1 targets are bridged to 3.0 by exact shared sense keys using
+NLTK wordnet31 and wordnet; phrase resources are never guessed. All candidates
+are retained. Each applicable row increments each distinct subject candidate's
+location seed once. Location entries retain counts and all grounding IDs.
+`conceptnet/build_rdf.py` serializes this JSON into minimal histogram RDF.
+The prior aligned-assertion JSON is historical, not the current canonical source.
 
 ### Other repository resources
 
@@ -74,8 +73,8 @@ an alignment, inference step, or change to either graph.
 | `wordnet/build_wordnet.py` | Retired entry point; prints migration instructions. |
 | `wordnet/bring_alignment.json` | Historical bring alignment evidence; not used by the new WordNet object generator. |
 | `wordnet/build_rdf.py` | Read WordNet JSON and serialize deterministic Turtle. |
-| `conceptnet/align_conceptnet_wordnet.py` | Join exact ConceptNet endpoint IDs against the explicit mapping CSV. |
-| `conceptnet/build_rdf.py` | Read aligned JSON and serialize assertion/mapping RDF. |
+| `conceptnet_to_robokgconceptnet.py` | Seed canonical object location histograms using explicit mappings and shared sense keys. |
+| `conceptnet/build_rdf.py` | Read canonical enriched JSON and serialize histogram RDF. |
 | `tools/view_robokgnet.py` | Read existing TTL files and serve a local, dependency-free browser interface. |
 | `tests/test_wordnet.py` | Tiny-subtree tests for schema shape, lexical grounding, parents, nulls and deterministic JSON/RDF. |
 | `tests/test_conceptnet.py` | Exact input/mapping preservation, ambiguity, missing mappings, duplicate rows and RDF reload. |
@@ -113,7 +112,7 @@ subsequent builds and viewing use local resources.
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r wordnet/requirements.txt
-.venv/bin/python -m nltk.downloader -d .venv/nltk_data wordnet verbnet framenet_v17
+.venv/bin/python -m nltk.downloader -d .venv/nltk_data wordnet wordnet31 verbnet framenet_v17
 ```
 
 Regenerate WordNet (corpus → JSON → Turtle):
@@ -123,11 +122,10 @@ NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B wordnet_to_robokgwordnet.py
 .venv/bin/python -B wordnet/build_rdf.py
 ```
 
-Regenerate ConceptNet (two CSVs → aligned JSON → Turtle):
+Regenerate ConceptNet (two CSVs + object backbone → histogram JSON → Turtle):
 
 ```bash
-.venv/bin/python -B conceptnet/align_conceptnet_wordnet.py
-.venv/bin/python -B conceptnet/build_rdf.py
+NLTK_DATA="$PWD/.venv/nltk_data" .venv/bin/python -B conceptnet_to_robokgconceptnet.py
 ```
 
 Regenerate demo action knowledge (corpora/evidence → JSON → separate TTL):
@@ -174,8 +172,8 @@ machine, forward the chosen localhost port to your browser machine.
 Suggested walkthrough:
 
 1. In ConceptNet or both mode, the default **Simplified semantic view** opens
-   **book** with direct **AtLocation** edges to bed, floor, row, and stack.
-   Search `book` to return there; exact labels automatically center the graph.
+   **an enriched object** with direct edges to its location buckets.
+   Search `aircraft` for its seeded sky location. Book has unresolved mappings.
 2. Use **Relations** to isolate AtLocation, mappings, or WordNet hierarchy.
    The default **Concept neighborhood** hides mappings until **Show WordNet
    mappings** is checked. Exclusive relation filters override that checkbox.
@@ -188,8 +186,8 @@ Suggested walkthrough:
    center automatically, preferring ConceptNet concepts; Enter selects the best
    partial match. Only 40 search results are shown at once.
 
-No RDF is rewritten. Semantic AtLocation edges are derived from the assertion
-subject/predicate/object fields; duplicate assertions share one displayed edge
+No RDF is rewritten by the viewer. Semantic AtLocation edges now follow location
+histogram links; historical reified assertions can also be projected; duplicate assertions share one displayed edge
 with source assertion IDs retained in the response. WordNet mapping edges stay
 optional and version-specific. Unlabeled external mapping targets cannot be
 assigned verified human-readable synset names without importing more data.
@@ -208,3 +206,21 @@ the diagram focused on relationships. Schema and provenance resources remain
 searchable. The viewer does not infer missing triples, fetch external resources,
 edit graphs, or merge WordNet versions. “Both” mode remains bounded exactly like
 the individual modes. Read [notes.md](notes.md) before extending those behaviors.
+
+## Current VerbNet simplification (supersedes the earlier demo snapshot)
+
+The canonical VerbNet resource is now `robokgverbnet.json`, with only bring-11.3:
+four schema-defined unknown entity slots, four role definitions and six source
+frames. `verbnet_to_robokgverbnet.py` uses the unchanged CMOC bring schema;
+This build writes JSON only; the existing TTL is not regenerated. The previous two-class `verbnet.json`
+is historical. The combined action RDF builder now writes only FrameNet, which
+has not been regenerated or changed. See `verbnet/README.md` for current commands.
+
+## Current ConceptNet JSON-only simplification
+
+`conceptnet_to_robokgconceptnet.py` now produces an exact structural copy of
+`robokgwordnet.json`, modifying only location histograms to synset-ID/integer
+entries. All unsafe and ambiguous mappings are skipped. Diagnostics are printed,
+not persisted. The prior histogram/provenance representation and its statistics
+above are historical. The existing ConceptNet TTL is unchanged and is not a
+projection of the new JSON; its converter and consumers require a later migration.

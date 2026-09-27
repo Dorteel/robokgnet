@@ -136,7 +136,7 @@ def save(graph, path):
 
 
 def main():
-    for name, builder in [('verbnet', verbnet_graph), ('framenet', framenet_graph)]:
+    for name, builder in [('framenet', framenet_graph)]:
         graph = builder(json.loads((OUTPUT / (name + '.json')).read_text()))
         path = OUTPUT / ('robokg' + name + '.ttl')
         save(graph, path)

@@ -28,14 +28,13 @@ the current backbone yet.
 Lexical resources must share identities without silently merging different senses.
 
 ### Current limitation
-NLTK supplies WordNet 3.0; the existing ConceptNet mapping CSV targets Princeton
-WordNet 3.1. The AtLocation JSON/RDF now preserves these 3.1 targets without
-joining the 3.0 backbone. No verified conversion exists; versioned IRIs alone
-do not solve cross-version alignment.
+Numeric ConceptNet WordNet 3.1 mappings now resolve to 3.0 through exact shared
+sense keys, preserving all targets. This does not resolve lexical/phrase-component
+URIs or prove that cross-version synsets are semantically interchangeable.
 
 ### Future direction
-Introduce an explicit, provenance-backed 3.0 ↔ 3.1 mapping, preserving ambiguous
-and unmatched cases rather than equating identifiers or labels directly.
+Validate wider coverage against authoritative version mappings, retaining splits,
+merges, unmatched cases, and their provenance instead of selecting one sense.
 
 ## ConceptNet mapping quality and ambiguity
 
@@ -83,7 +82,10 @@ and class names.
 
 ### Current limitation
 The inspected SemLink2 table supplies class/member-to-frame links, not role-level
-alignments or direct WordNet-sense-to-frame assertions.
+alignments or direct WordNet-sense-to-frame assertions. The JSON enrichment leaves
+bring's four slots null and lists all Bringing FEs separately. SemLink's older
+`other_resources/VN-FNRoleMapping.txt` links class 11.3 to Carry_goods, not Bringing;
+those links cannot be transferred to Bringing.
 
 ### Future direction
 Use an authoritative role mapping when available, or separately document curated
@@ -104,21 +106,49 @@ Resolve the lexical identities and model purpose relations with provenance befor
 adding purpose-based object retrieval. Keep this separate from the current
 WordNet export.
 
-## Learned semantic-memory weighting
+## Deferred: learned semantic memory from grounded occurrences
 
 ### Why it matters
-Object-location knowledge should improve from successful robot observations.
+Current WordNet, ConceptNet, VerbNet, FrameNet, and SemLink resources provide
+**static / prior semantic knowledge**. Future learning should capture empirical
+role combinations from actual robot experience, rather than treating those
+priors as observations.
 
 ### Current limitation
-AtLocation now has stable, provenance-bearing assertion resources with explicit
-WordNet 3.1 mapping candidates. There are no runtime counts, learned weights,
-or observation ingestion; ambiguous mappings are unresolved.
+KnowledgeInterface now supports in-memory location-count increments and explicit
+saving to the concept JSON. Counts do not distinguish seeds from observations;
+regeneration replaces saved updates. No grounded occurrence store or episode-based
+learning mechanism exists yet.
 
 ### Future direction
-Extend the assertion model with prior_count, observation_count, and weight.
-Keep seed priors separate from observation counts, persist evidence, and derive
-ranked weighted relations per object type. Define observation identity and
-normalization before integrating ORKA updates.
+Keep **episodic memory** for individual concrete observations/events. Derive
+**learned semantic memory** from repeated grounded frame-role instantiations in
+those episodes, separately from the static priors.
+
+For each observed/executed bring-11.3 event, retain a new occurrence of the
+schema-defined tuple `(agent, destination, source, theme)`, for example
+`(robot, dining_table, kitchen, muffin)`. Preserve repeated occurrences instead
+of immediately collapsing identical tuples:
+
+```text
+bring-11.3:
+  occurrences:
+    (robot, dining_table, kitchen, muffin)
+    (robot, dining_table, kitchen, muffin)
+    ...
+```
+
+Each distinct event contributes an occurrence; multiple reports of the same event
+should not inflate frequency. Retain grounding and links to the contributing
+episodes. Later aggregation can derive counts, histograms, and distributions to
+answer where muffins are usually brought from/to, which objects commonly come
+from kitchens, and which role combinations have occurred before.
+
+Generalize to other frames such as search-35.2 using each frame's actual schema
+roles, rather than fixing every event to bring's tuple. Keep learned occurrences
+persistent across prior-resource rebuilds and preserve empirical counts when
+combining learned distributions with prior knowledge. This is deferred design
+only; no runtime learning or Search support is implemented.
 
 ## Planning ontology integration
 
@@ -188,3 +218,53 @@ Separate observation-validation schemas from type templates and define nullabili
 explicitly. Select appropriate schemas and WordNet roots for future semantic
 branches, then design deduplicated merging that preserves multiple inheritance.
 Do not implement colour/material/shape branches or guess measurements now.
+
+## Schema-driven VerbNet class coverage
+
+### Why it matters
+Additional formal actions should be driven by their actual CMOC schemas, without
+mixing unknown entity bindings with class-level linguistic knowledge.
+
+### Current limitation
+The canonical VerbNet resource now covers only bring-11.3. CMOC's schema describes
+four nullable task-instance slots and forbids extra fields; role restrictions and
+semantics therefore live outside the schema-valid frame in a small class wrapper.
+Direct lexical members also live outside the task schema; subclass semantics and
+search are not imported. TTL regeneration is deferred for this JSON-only resource.
+Existing FrameNet links may reference absent formal class/member resources.
+
+### Future direction
+Add search-35.2 only when its corresponding schema is available, using the same
+build_verbnet_resource API. Decide whether class definitions need their own schema
+and how explicit subclass/member provenance should connect separately to FrameNet.
+Do not fabricate entity bindings or role equivalences to bridge these layers.
+
+## Minimal ConceptNet histogram projection
+
+### Why it matters
+The conceptual object resource should remain readable without construction-time
+alignment evidence or diagnostic payloads mixed into its nodes.
+
+### Current limitation
+Location histograms now contain only synset-to-integer counts in a full backbone
+copy. Ambiguous or partly unresolved mappings are skipped rather than fanned out;
+there is no runtime observation API or persisted source-count split. The previous
+ConceptNet TTL and its consumers are not regenerated by this JSON-only step.
+
+### Future direction
+Improve explicit disambiguation separately, without adding construction metadata
+to object nodes. Migrate the RDF projection and consumers to this canonical shape
+in a separate task. Define runtime count persistence before adding observations.
+
+## Multiple FrameNet candidates for one action
+
+### Why it matters
+Member-specific alignments may associate one VerbNet class with several frames.
+
+### Current limitation
+The reusable action builder requires one uniquely matched FrameNet frame and
+fails before writing when mappings are absent or ambiguous. Search is not added.
+
+### Future direction
+Define explicit selection or a reviewed multi-frame representation before extending
+to ambiguous classes; do not silently select the first alignment.

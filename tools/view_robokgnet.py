@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FILES = {'wordnet': 'robokgwordnet.ttl', 'conceptnet': 'robokgconceptnet.ttl'}
 WN = 'https://w3id.org/robokgnet/wordnet/schema#'
 CN = 'https://w3id.org/robokgnet/conceptnet/schema#'
+HIST_LOCATION = URIRef('https://w3id.org/robokgnet/location#location')
 AT_LOCATION = URIRef('http://api.conceptnet.io/r/AtLocation')
 MAPPING = URIRef(CN + 'mapsToWordNet')
 SOURCE = URIRef('http://purl.org/dc/terms/source')
@@ -37,7 +38,9 @@ class Viewer:
                 parts = str(uri).rsplit('.', 2)
                 if len(parts) == 3:
                     pos = {'n': 'noun', 'v': 'verb'}.get(parts[-2], pos)
-            if pos in ('noun', 'verb'):
+            if (None, HIST_LOCATION, uri) in graph:
+                kind = 'concept'
+            elif pos in ('noun', 'verb'):
                 kind = pos
             elif (uri, RDF.type, URIRef(CN + 'AtLocationAssertion')) in graph:
                 kind = 'assertion'
@@ -48,7 +51,7 @@ class Viewer:
             else:
                 kind = 'metadata'
             label = str(graph.value(uri, RDFS.label) or graph.value(uri, URIRef(CN + 'conceptId')) or short(uri))
-            if kind == 'concept':
+            if kind == 'concept' and '/c/' in str(uri):
                 path = urlparse(str(uri)).path.split('/')
                 label = unquote(path[3]).replace('_', ' ') if len(path) > 3 else label
             elif kind == 'wn31':
@@ -62,6 +65,8 @@ class Viewer:
         # A read-only projection: assertions become semantic edges; RDF stays intact.
         self.semantic = Graph()
         self.evidence = {}
+        for subject, _, entry in graph.triples((None, HIST_LOCATION, None)):
+            self.semantic.add((subject, AT_LOCATION, entry))
         for predicate in (RDFS.subClassOf, MAPPING, AT_LOCATION):
             for triple in graph.triples((None, predicate, None)):
                 if triple[0] != URIRef(CN + 'AtLocationAssertion'):
@@ -126,7 +131,8 @@ class Viewer:
                 'view': view, 'filter': relation}
 
     def summary(self):
-        candidates = [
+        hist_subjects = sorted(set(self.graph.subjects(HIST_LOCATION, None)), key=str)
+        candidates = [(self.nodes[str(u)]['label'] + ' · location histogram', str(u)) for u in hist_subjects[:1]] + [
             ('Book · ConceptNet', 'http://api.conceptnet.io/c/en/book'),
             ('Physical mug · WordNet 3.0', 'https://w3id.org/robokgnet/wordnet/3.0/synset/mug.n.04'),
             ('Bring action · WordNet 3.0', 'https://w3id.org/robokgnet/wordnet/3.0/synset/bring.v.01'),

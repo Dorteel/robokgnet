@@ -28,25 +28,6 @@ class ActionKnowledgeTests(unittest.TestCase):
         cls.verbs = json.loads((DATA / 'verbnet.json').read_text())
         cls.frames = json.loads((DATA / 'framenet.json').read_text())
 
-    def test_scope_roles_and_exact_structured_semantics(self):
-        self.assertEqual(set(self.verbs['classes']), {'bring-11.3', 'search-35.2'})
-        graph = verbnet_graph(self.verbs)
-        self.assertEqual(len(set(graph.subjects(RDF.type, KG.VerbNetClass))), 2)
-        for name, record in self.verbs['classes'].items():
-            xml = vn.vnclass(name)
-            self.assertEqual(record['roles'], [tree(r) for r in xml.findall('THEMROLES/THEMROLE')])
-            for role in record['roles']:
-                self.assertEqual(read_tree(graph, node(VN, name + '/role/' + role['attributes']['type'])), role)
-            for index, source in enumerate(xml.findall('FRAMES/FRAME')):
-                for part in ('semantics', 'syntax'):
-                    self.assertEqual(record['frames'][index][part], tree(source.find(part.upper())))
-                    self.assertEqual(read_tree(graph, node(VN, name + '/frame/' + str(index) + '/' + part)), record['frames'][index][part])
-        self.assertTrue(list(graph.triples((None, KG.phase, Literal('start')))))
-        self.assertTrue(list(graph.triples((None, KG.phase, Literal('end')))))
-        self.assertTrue(list(graph.triples((None, KG.role, node(VN, 'bring-11.3/role/Source')))))
-        bring = next(m for m in self.verbs['classes']['bring-11.3']['members'] if m['name'] == 'bring')
-        self.assertEqual(bring['declaring_class'], 'bring-11.3-1')
-
     def test_framenet_definitions_lexical_units_and_explicit_alignments(self):
         seeds = self.frames['metadata']['semlink_evidence']['demo_seeds']
         self.assertEqual(set(self.frames['frames']), {r['framenet'] for r in seeds})
@@ -73,7 +54,7 @@ class ActionKnowledgeTests(unittest.TestCase):
     def test_deterministic_json_and_turtle_reload(self):
         self.assertEqual(extract(), (self.verbs, self.frames))
         with tempfile.TemporaryDirectory() as directory:
-            for name, document, builder in [('verbnet', self.verbs, verbnet_graph), ('framenet', self.frames, framenet_graph)]:
+            for name, document, builder in [('framenet', self.frames, framenet_graph)]:
                 path = Path(directory) / (name + '.json')
                 write_json(document, path)
                 self.assertEqual(path.read_bytes(), (DATA / path.name).read_bytes())
