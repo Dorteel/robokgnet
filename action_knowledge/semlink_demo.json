@@ -1,0 +1,51 @@
+{
+  "alignments": [
+    {
+      "framenet": "Bringing",
+      "member": "take",
+      "verbnet": "bring-11.3"
+    },
+    {
+      "framenet": "Bringing",
+      "member": "bring",
+      "verbnet": "bring-11.3-1"
+    },
+    {
+      "framenet": "Scrutiny",
+      "member": "check",
+      "verbnet": "search-35.2"
+    },
+    {
+      "framenet": "Scrutiny",
+      "member": "probe",
+      "verbnet": "search-35.2"
+    },
+    {
+      "framenet": "Scrutiny",
+      "member": "scour",
+      "verbnet": "search-35.2"
+    },
+    {
+      "framenet": "Scrutiny",
+      "member": "search",
+      "verbnet": "search-35.2"
+    }
+  ],
+  "demo_seeds": [
+    {
+      "framenet": "Bringing",
+      "member": "bring",
+      "verbnet": "bring-11.3-1"
+    },
+    {
+      "framenet": "Scrutiny",
+      "member": "search",
+      "verbnet": "search-35.2"
+    }
+  ],
+  "existing_snapshot": "cmoc/knowledge/robokgnet/data/semlink_subset.json",
+  "note": "Exact class/member mappings only; source contains no role-level alignment.",
+  "parsed_table_sha256": "028d197ee8acb5366d1986e4c68a8dd7faab8960780d18efca03e0578a71ea4f",
+  "retrieved": "2026-09-26T12:01:25.469254+00:00",
+  "source": "https://raw.githubusercontent.com/cu-clear/semlink/master/instances/vn-fn2.json"
+}

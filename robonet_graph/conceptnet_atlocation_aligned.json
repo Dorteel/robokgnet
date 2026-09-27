@@ -1,0 +1,3706 @@
+{
+  "assertions": [
+    {
+      "id": "atlocation-03180a72390d597662528cbf69f565632235b62f12e41c62e3fc1165a2fb6be1-1",
+      "object": "/c/en/vehicle/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104531608-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/accelerator/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102672816-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102673012-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102673313-n"
+      ]
+    },
+    {
+      "id": "atlocation-41bf873ce92124849a47c8a5d39093ce76ea1f3cfc932567053846e8f7234132-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/air",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-54af4877c5338238e1f04141215cb655794324de6ffde7ec828b6a7db56c547c-1",
+      "object": "/c/en/jar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/air",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-ffe6ec2169f4c81112424f68d934189f8861b53e451331ab7980d9b3fab445a8-1",
+      "object": "/c/en/sky/n/wn/object",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/109459612-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/aircraft/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102689427-n"
+      ]
+    },
+    {
+      "id": "atlocation-e99928ac459c5873fbeb2bfd70dcc5a8d6f02b9c902ca15d13185ecceaa07ed4-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/arm",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/twist+someone's+arm-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-98f4ebe13563689c673cc9dc02d8da4a2c4a433ac6f8d40acce07e3137fcc49a-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bag",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-5b6315a238d904aea63cd881fff4b0e8cff4857fd80a61996d9861307227d1c5-1",
+      "object": "/c/en/hole",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ace+in+the+hole-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ball",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+lost+ball+in+the+high+weeds-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/drop+the+ball-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+the+ball+rolling-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+eye+on+the+ball-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/take+your+eye+off+the+ball-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-651551b1c6ab7084273ce364d7378a2c27a6ce7d22c709b18d1dbb364447935a-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bark",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/all+bark+and+no+bite-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/their+bark+is+worse+than+their+bite-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-513eb6ce3e8f0cc6bfed679c01e5ff4ac546d866d10f9405bee8426c2eed667f-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/basket",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-dd3a12c723c69da66b8f3ea6042855738644e94cae067462b8fb2355e302e79e-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bat+an+eyelash-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-2081c7bd12e7e752279aff2c005d0ce05d458d9c28583460a8480ee9d7602f35-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bat+an+eyelash-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-97f41b86d2610699957e2f8b62ec25707bf80456dcc36ba6206f8f7905617364-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/batten",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/batten+down+the+hatches-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-82c3e292e2e51711bee7a81c2ca4711e4645886bcb01b90b1fa975878f5eeb87-1",
+      "object": "/c/en/ship",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ship+came+in-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/batten",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/batten+down+the+hatches-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-820ab0c35608f545baccdf4ca79bc16c1eb213d4d7e9a11d3f0696b073f5730c-1",
+      "object": "/c/en/car/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102961779-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102963378-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102963788-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102963937-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/battery/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102669254-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102813606-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102813917-n"
+      ]
+    },
+    {
+      "id": "atlocation-787ca3cb71e34b771302a48cb379b4d8adaeafe1e1f427b920cb355aae970f22-1",
+      "object": "/c/en/water",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bay",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+at+bay-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-20b569a9e885480ecf950be99e34e75f0750ebf5dea0f03f686932022229161e-1",
+      "object": "/c/en/can",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+off+more+than+you+can+chew-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/beans",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/spill+the+beans-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-274116427c0e08021b21d75a70613c76f2981eb6d46affd7d70f0b96e4a07661-1",
+      "object": "/c/en/jar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/beans",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/spill+the+beans-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-3d1116cda457bdee484a02cfd5ce57af8942f72a53ecf6dbaddae90ddc67ce80-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/beans",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/spill+the+beans-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-e58eb1cfcf79ce2b42f7edc4802ed5592a03f0f78b4bad50a40c9bd82cfae866-1",
+      "object": "/c/en/boat",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/whatever+floats+your+boat-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bell",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-4dfb66a1228dd0022826f46d92b5837f053ea063132d1bbdd5f077aac2e8c0e5-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bird",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/early+bird+catches+the+worm-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-5440df3aa36242bf8d42012d72fe9c9b1d9ab4ff30a7a93cf96357ad279714c4-1",
+      "object": "/c/en/bush",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/beat+about+the+bush-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bird",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/early+bird+catches+the+worm-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-af15b4239290322ca29aa98a51ea1694658ec94bed1856deb9d9a4e23db3f44b-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bird",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/early+bird+catches+the+worm-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-9818fd9f62eae1e47cd667005a885479507c83e1f51161128013bd449e2bf5ef-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bird",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/early+bird+catches+the+worm-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-ceaa0269a00daf3a82bf53a59bea6fe27aa014c728f49b4ceb7cf46cfd034e3c-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/birds",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/kill+two+birds+with+one+stone-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-bd727f26ace99c19f8b11c37ef3545ee76c821d83a8dad2251d2d1290fe3b062-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/birds",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/kill+two+birds+with+one+stone-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-86a0fe5de3980541f7b8ea1d3386321d02558300b797b70f852bbe40b3159d94-1",
+      "object": "/c/en/bay",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+at+bay-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/boat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/whatever+floats+your+boat-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-3a17e577dd674bffe2cde60b62d6bb06b13651dec29a905efe9836e818456139-1",
+      "object": "/c/en/water",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/boat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/whatever+floats+your+boat-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-52ba994ce5b93774010310f65182918c2c428c20ddf05264669bcd28cf35bfc1-1",
+      "object": "/c/en/body_of_water/n/wn/river",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/109248053-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/boat/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102861626-n"
+      ]
+    },
+    {
+      "id": "atlocation-f4d224ef73a788ddf1c5937edd2b17797945c7ad0b183904bd3dcc767f6ced65-1",
+      "object": "/c/en/water",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/boats",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+rising+tide+lifts+all+boats-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-14f9b2bab6cddc40edd832445646f0fe2470375db99dbabc19d2ce469d4e6a6f-1",
+      "object": "/c/en/arm",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/twist+someone's+arm-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bone",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/chew+on+a+bone-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+bone-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-4b89596a15cc1857ff82422f0a27e7f5645a23e2b9aa37dc5a832e66bbf66b5d-1",
+      "object": "/c/en/fish",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/other+fish+to+fry-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bone",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/chew+on+a+bone-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+bone-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-22c75ccb612b0228d44ce3c724d8385af9e4ca874c9c9de0aeb0793ce9251647-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/book",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-5d9577a1bc20677c02d319d07d96eae1ed5ccd3060cb7f9b20669f1b1ab49ef1-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/book",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-8358996a34d488b6c993afd4d0492cd1db5c4f6a9df201a17d09492da86d80ff-1",
+      "object": "/c/en/row",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+long+row+to+hoe-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+ducks+in+a+row-p#Component-6"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/book",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-342be76fb4b898d8e969583bd199ba68de99fea432f94dea788d538c7c953514-1",
+      "object": "/c/en/stack",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+your+stack-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/book",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-f87c232209c11d5a17540af21b2520ab901782090ef2efdc33d40f1474bf2003-1",
+      "object": "/c/en/ballpark/n/wn/baseball",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102785801-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/box/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102886585-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887252-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887466-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887691-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887848-n"
+      ]
+    },
+    {
+      "id": "atlocation-280a8ddfe3eaa73b38364a8343c2684bff3dec379a53d771d8de984c95255600-1",
+      "object": "/c/en/theater/n/wn/dramaturgy",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104424944-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/box/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102886585-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887252-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887466-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887691-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102887848-n"
+      ]
+    },
+    {
+      "id": "atlocation-f9f0928cdd8e7566dd011b0ffa53da01f8b1d4f75fa64cc41b1990ca6d2e2f99-1",
+      "object": "/c/en/car/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102961779-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102963378-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102963788-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102963937-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/brake/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102892666-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102892887-n"
+      ]
+    },
+    {
+      "id": "atlocation-1a66b8737cbdf5f5831cadc098e7edc17764f65721d2242b4ab2b37f45c94029-1",
+      "object": "/c/en/mouth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bridge",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-5ac036b9182866c97ed8e506db74401c415b004704343304dcc71f82e6da08ca-1",
+      "object": "/c/en/laundry",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bucket",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/kick+the+bucket-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-533fdea68f370b53e171aadb1262f6f3492be522a2a5ea20493126aed7481cae-1",
+      "object": "/c/en/well",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sit+well+with-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bucket",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/kick+the+bucket-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-34c7b84fe67b118cb2ec67b05f1936f0a123dce23c5456fea91d0a6ef4a30779-1",
+      "object": "/c/en/land/n/wn/object",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/109357302-n",
+        "http://wordnet-rdf.princeton.edu/wn31/109358146-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bulb/n/wn/plant",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/113154818-n"
+      ]
+    },
+    {
+      "id": "atlocation-bdc0bbc97185f8f2fd3909cc9a0beea28c51e49c68f65a56e939105b1c143743-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bullet",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+bullet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/dodge+the+bullet-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-8f14d98de52e2c5242480ee6cdb7aa983ba025c3889abcdedc26d6d7d9f558df-1",
+      "object": "/c/en/railway/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104055680-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bullet_train/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102920413-n"
+      ]
+    },
+    {
+      "id": "atlocation-c4eeb226596d508cda1df3065947b2d78a35060a6b9a63bb08f486b37648f50f-1",
+      "object": "/c/en/road/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104103160-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/bus/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102927500-n",
+        "http://wordnet-rdf.princeton.edu/wn31/102927938-n"
+      ]
+    },
+    {
+      "id": "atlocation-edd770410ce9332143aa700b1852196c58e53d99d2669ee3ed88e63f1ba02fb8-1",
+      "object": "/c/en/dark",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/shot+in+the+dark-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/candle",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+hold+a+candle-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-3077444074c1da8d61d634d3c59aa4bbe314a7d49904721d966250b3a13ae5ba-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/carpet",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/brush+under+the+carpet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+things+under+the+carpet-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-aeed67a6815e71ace15bbeb9c5771439b5435110d02ac9768dbd9db38d90e525-1",
+      "object": "/c/en/bag",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-039392fb8849115cc5c31661d26e509f4a6bc7968aa5182006a4cb7cd8aaca8f-1",
+      "object": "/c/en/be",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/be+out+of+the+picture-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-f91c7b731167b771012e38e37ea02f7199b39ccb20503c4d57be9067e25298c3-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-205aea8ebcb49afa62e4093097276ccb902ae02136e0c64a558a62816113aee9-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-c4c8f5a29998232c1d65295f4c7c3df936cf527f238cd22fa376e09224e7486c-1",
+      "object": "/c/en/dirt",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-52029472098ec6c77053c4490d6a2a8eb9ec6b8c54d1f2dc85287d3f78799179-1",
+      "object": "/c/en/fight",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fight+an+uphill+battle-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-59b92511d58af20b5082f0f9b9c04f820e59e118be33cf5a919bfe630baad1dc-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-b07948986c44ded48918aa24fd8bb4f10282ad0f6c5f8d335568ce5eed6a4003-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-e9bd876740a1f0fe3c7cc1791ba22f2616dea1c4c009c54f37be9a44dc2771bf-1",
+      "object": "/c/en/heat",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+heat-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-a727dec8a712ffa2f9d6bf5de793613762296804119ccc02de4e378d45303316-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-9062a9f46f16d0238d33ccbd0b17066f12bbd5fae9e1303a5c7944682bb48104-1",
+      "object": "/c/en/laundry",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-cc27cdf6d384078dbfd751eb4f6ba7e2c951c54729517bf0929e463268c6604d-1",
+      "object": "/c/en/rome",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/all+roads+lead+to+rome-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-8b227a6d516cb9a65760f27d834a3dd236946c529940446ba799472d6e458988-1",
+      "object": "/c/en/show",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/run+the+show-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/show+someone+the+ropes-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/show+your+true+colors-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-93986111b388301f9ed2af28114fe5376263c334cbb202e51937243406d89d2d-1",
+      "object": "/c/en/way",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rub+someone+up+the+wrong+way-p#Component-6"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+cat+out+of+the+bag-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-3962737bba9d1374b1c525f6ec23895a99efe1d6e149e2b9cfafe1d861c52b93-1",
+      "object": "/c/en/shed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/shed+light-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/chain",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+chain+is+no+stronger+than+its+weakest+link-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-26e1570c00eb1d1537851ce68dd62423760af41e1c4ac866e0a3673c5ff48d5f-1",
+      "object": "/c/en/jar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/change",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/change+horses+in+midstream-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/leopard+can't+change+its+spots-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-24fefc73b17c3574c31215a185176657cd259427261e31847a7c2681658fb2b1-1",
+      "object": "/c/en/bar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/lower+the+bar-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/chips",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cash+in+your+chips-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+chips+fall+where+they+may-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-d980dfdd047ab39addf437aed6405ea98bd92a287a46fc3d6ee1056e44bd2ec7-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cloud",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/every+cloud+has+a+silver+lining-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-a3995a9f8b02d1df2bb35073a5292b191f164b907d7c426a308c925f0609bf84-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/colors",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/show+your+true+colors-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-af523c4220239b74c900c834019a86b997e173d9611c50bcec09230616870236-1",
+      "object": "/c/en/memorial/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103749393-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/column/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103078384-n",
+        "http://wordnet-rdf.princeton.edu/wn31/103078578-n"
+      ]
+    },
+    {
+      "id": "atlocation-b8f41fa6ba20e23e829b13fed3722b3792fff5d246594b0ccbbc89f153510286-1",
+      "object": "/c/en/jar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cookie",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-000fbecfda59c0de71daa295801fa0e2b7df32c2ab3c4c3aa148fa68174b0d9c-1",
+      "object": "/c/en/book",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cover",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cover+all+the+bases-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-4e60f9ff29efe4e9fd84647989a56cabdc6ab5c6981eff52cfb9f040e26a4486-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/cut",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cut+someone+some+slack-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+to+the+chase-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+to+the+quick-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+your+losses-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+your+teeth+on-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-84a4001f489f3cc59866bec89f25920d952790b7dedf3a4a90f62878d83a43b7-1",
+      "object": "/c/en/show",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/run+the+show-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/show+someone+the+ropes-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/show+your+true+colors-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dancing",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dancing+on+someone's+grave-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-6cdc93ae4d81dc94021fe327e1101ad13485c2ed8ef32ff1b54787f1e8fad7ef-1",
+      "object": "/c/en/ring",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-6"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/diamond",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/diamond+in+the+rough-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-8b9c4b7942d9299fc902837df8436201199b9f8329b5074978a2193ced82c295-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-0c2485e33c4bd3007226d2ba5c9d279bf84723690b854c126eb8bd1837579b9b-1",
+      "object": "/c/en/carpet",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/brush+under+the+carpet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+things+under+the+carpet-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-de742f3234662d16882fdcb1114098db941084b68fe97da0c08b0bd2fb074fa6-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-9613bb424af265962dfba78c7f9a4ad41f3a78af53af740ace158c027b7a3155-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-3108a3dd5f52dc46d991c2c77c07e6c91d5df4f1355c5f411d5a40a211610c43-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-dd71171b3e045694983b5c8e3aa5ba06984c27f91cf0259c14330de534211312-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-0e686405761d62f8abd095e6e6feebfe8d40a98f4cf0d7efb6c4aa4273623d51-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirt",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-95a381e73632e3cf756b06de65a157f9437d40d502389a2c8167aa7a2173e714-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirty",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+hands+dirty-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-ba2639c74e6b1eaedc6e088d35bc369b69ae296cecc02d00c6c3bd659f00dbfe-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dirty",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+hands+dirty-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-13baf8c30bbdf0aae3ba1054e4ca291c6ce63c7619a13480d60f75eb83ec13e9-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dog",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/every+dog+has+its+day-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-3077ce56e6071b2e6758f41950f16a0eabb8dfd993a36401f23fe5ea7f714d41-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dog",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/every+dog+has+its+day-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-374c7160ad3073bb93e2336053383150e164166c6f558bd3f75b560464175e36-1",
+      "object": "/c/en/show",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/run+the+show-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/show+someone+the+ropes-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/show+your+true+colors-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dogs",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/call+the+dogs+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/let+sleeping+dogs+lie-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-c36eef9091ebfb27985064bc81b5db3ecedc5f02ecdb5e50d614f12a1ea3f706-1",
+      "object": "/c/en/wall",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drive+someone+up+the+wall-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/door",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/close+the+stable+door+after+the+horse+has+bolted-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-377d89ff378dcb39d12cd5026dbded06d30c8e40098446cc26e16ed0a3b77920-1",
+      "object": "/c/en/a",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+chain+is+no+stronger+than+its+weakest+link-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+long+row+to+hoe-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+lost+ball+in+the+high+weeds-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+rising+tide+lifts+all+boats-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+steal-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+watched+pot+never+boils-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/beat+a+dead+horse-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/bust+a+move-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/call+a+spade+a+spade-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/call+a+spade+a+spade-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/call+it+a+day-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/can't+hold+a+candle-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/cast+a+long+shadow-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/chew+on+a+bone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+blank-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/drop+a+bombshell-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/every+cloud+has+a+silver+lining-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/get+a+grip-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+a+handle+on-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+ducks+in+a+row-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/give+someone+a+run+for+their+money-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hang+by+a+thread-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/have+a+crack-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/have+a+go-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/have+a+trick+up+your+sleeve-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+a+nerve-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+killing-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+mountain+out+of+a+molehill-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+mountain+out+of+a+molehill-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/mess+with+a+bull,+you+get+the+horns-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/put+a+damper+on+something-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/put+somebody/something+on+a+pedestal-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/smell+a+rat-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/spinning+a+yarn-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/strike+a+chord-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+punch-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/take+someone+down+a+peg-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+someone+for+a+ride-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+bone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+line-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+blind+eye-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+deaf+ear-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+new+leaf-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/walk+a+fine+line-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/drive",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drive+someone+up+the+wall-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-6988be06f48619ebbb1acc9c10e1c1f0d2c744f4a4a88e9482e8387d2804c8c5-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-e8f579f0560cafae7b92033a7186ecba9f60a8d5113bc621cc63c5838588c0cc-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-1e80bc18001b033ff684f41e4b6e8efda0436403e91aa387bb9433536ee7be07-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-4b392f722c9740934eeed29eb389e63182654ed05ad93c78443a69beff342f33-1",
+      "object": "/c/en/carpet",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/brush+under+the+carpet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+things+under+the+carpet-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-d294042aa7452d03dc093a90aeea3e1bf30de517e96470f4f516e45b22700df1-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-f0fb0c754723c3d52b646c8c73a5ba10ad675ee811467fe3b798787a806772ab-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-4eac6f0ffaea1e3a8fdcdad1e5dea88cb28b829675179a1f1d5a89e7932425d6-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-2a6ba50bd5fb7d22151766fc04d04c533458aaec73dab235485b2215cecd4f0d-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/dust",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+the+dust-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/collect+dust-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-a0e907ac857a15e7917376466442a9f20763311f2f139c28501aa03f3dd5073d-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ear",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/play+by+ear-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+deaf+ear-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-fb046176d8ef9585946bc9877791121ce590d16b0d63cd4fe35562be3fdb8922-1",
+      "object": "/c/en/head",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+someone's+head+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+head+around+something-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ear",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/play+by+ear-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+deaf+ear-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-5211bca89a613738565d7d8b58adff300fc9c98b95fb9c7b6c85dd2c761abe96-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/earth",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+someone+down+to+earth-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-43f291c1a1f4944ffc73629e8f697cf8a5a1dfb45ca9be186cb1cb1264e92f7c-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/earth",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+someone+down+to+earth-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-ddfcaac4e5ca5242dd9e756ee2fd425af10a7b12b0e4618aec87b2df204fb339-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/eat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/eat+crow-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/eat+humble+pie-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/eat+someone+alive-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/eat+your+words-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-ebeac301808837817197e2101a865bd707b8a3c590f4df7f3eb53e9acb07fe80-1",
+      "object": "/c/en/building/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102916498-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/elevator/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103286056-n",
+        "http://wordnet-rdf.princeton.edu/wn31/103286435-n"
+      ]
+    },
+    {
+      "id": "atlocation-bdc3b2374410d2f778485787c03d8021d6cb337f8faed5703bbf8a3a0ffcc4b6-1",
+      "object": "/c/en/elevator_shaft/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103286584-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/elevator/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103286056-n",
+        "http://wordnet-rdf.princeton.edu/wn31/103286435-n"
+      ]
+    },
+    {
+      "id": "atlocation-6ae36cfdb952d5fe3c48c5599045734a73416d9d845c17a36fb5d8fb007a35c8-1",
+      "object": "/c/en/face",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/about+face-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/face+the+music-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/face+your+demons-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/eye",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/eye+for+an+eye-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/eye+for+an+eye-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+eye+on+the+ball-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+eye+on+the+prize-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/take+your+eye+off+the+ball-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+blind+eye-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-43a83cb2af2fe4cba31afbb26a47cb65640ca08378ee4a8e252e14e355cddcd7-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/feet",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drag+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/fall+on+your+feet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/find+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+off+your+feet-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-87ed69dbc04192c4b3be5068ba2678abc707d9b7775bc0e2a992423985890390-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/feet",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drag+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/fall+on+your+feet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/find+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+off+your+feet-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-377c531b7b6877f7b2a6df80dc5ea8ba514f3137aaed27845f3f7836578a9d41-1",
+      "object": "/c/en/shoes",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/feet",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drag+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/fall+on+your+feet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/find+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+off+your+feet-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-565d55a303420bf048634ecd966ac2bf8422578900c717d420af99df8a8d1861-1",
+      "object": "/c/en/socks",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/knock+your+socks+off-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/feet",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drag+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/fall+on+your+feet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/find+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+off+your+feet-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-44898409eb4db7bf964466a2695a40391bbd17cf4e2c93b7214d9fc75af454da-1",
+      "object": "/c/en/body_of_water/n/wn/river",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/109248053-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ferry/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103334608-n"
+      ]
+    },
+    {
+      "id": "atlocation-341d74624e96a2ce71432d048a1701b1ea86d2f46cf3e1d495d3727de6cb1d35-1",
+      "object": "/c/en/hand",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+bite+the+hand+that+feeds-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/out+of+hand-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/finger",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-ce5475452c5ecc2a2e9b3112739b78222d403bc125c4c0726bf8803ea3639856-1",
+      "object": "/c/en/nose",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+clean-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+to+the+grindstone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+your+nose+up-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/finger",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-434d69e122ed4bc595c1058414c795d27f6119540ca55321c58c4295736150c4-1",
+      "object": "/c/en/ring",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-6"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/finger",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-f51279de04d950ca4e548f717b91b1ff711efd8d3543c6608a0904a60a40511e-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/fire",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/add+fuel+to+the+fire-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/no+smoke+without+fire-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/under+fire-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-b61bf244cc2e90793b649931ef1303e2c723e320c85bd3a7172986b254ce5929-1",
+      "object": "/c/en/boat",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/whatever+floats+your+boat-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/fish",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/other+fish+to+fry-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-375915227abfacb60eba7628433202fe830711448290081848b5cb7af38bf005-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/fish",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/other+fish+to+fry-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-2e0680866f8cbebf716bf05648134e6555779c1c7a487591f010cd53047f436b-1",
+      "object": "/c/en/water",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/fish",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/other+fish+to+fry-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-af4f88367eb153aa3a270d4ea96cda8f6606c99b0e9c9d423e06d443ce6601cd-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/floor",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-31b905b6e7a1933d834a02babda109a19592ba16f91e2b29e0a144ba369ccba8-1",
+      "object": "/c/en/carpet",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/brush+under+the+carpet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+things+under+the+carpet-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/floor",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-a656b863debbcd61c75432d5a3f155bae6e44eb838d4b9e83dfd14df29a83b3e-1",
+      "object": "/c/en/grave",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dancing+on+someone's+grave-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/foot",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+your+foot+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/shoot+yourself+in+the+foot-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-8c0b6dd7e006648c833c2297e523c9569fe061e3b5208f3750101f3822d886f0-1",
+      "object": "/c/en/earth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+someone+down+to+earth-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/forest",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-871954eba86a9c33fdf7d78262bdad712f4774c5d357fea471e80ba56a04d939-1",
+      "object": "/c/en/building/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/102916498-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/furniture/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103410635-n"
+      ]
+    },
+    {
+      "id": "atlocation-607d78594621ff4932647c68359102fbf554289bdb50b266cce1e3a7d3427e9a-1",
+      "object": "/c/en/house/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103549540-n",
+        "http://wordnet-rdf.princeton.edu/wn31/103550330-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/furniture/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103410635-n"
+      ]
+    },
+    {
+      "id": "atlocation-7f70ade715664c1daa019e801da8bda34260ee741c183f6ae33b726f53e90ce5-1",
+      "object": "/c/en/boat",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/whatever+floats+your+boat-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/gas",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/run+out+of+gas-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-0d5e2ab0887092160c3d4ca2ec159f75d1d9eeaa177da009e5a9e4ad556b2b4e-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/gift",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-660ab67c21e3b0add4b4854f1f12fdb811f5b339f5ed5d9e85a06529eedaa0ea-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ground",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-0582fe0c9b8a3832320d0d93e884a5ed3e83a85f732ba67de2f20ec7f2e8d13c-1",
+      "object": "/c/en/arm",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/twist+someone's+arm-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-7c3a47a068e5f9b238798bb641f94575c92ffd2d7546a0f011646771df21a495-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-b60a38ded9f21a869278ce0bf282ac441f990a6ad6b240112fc623b44dffe9ab-1",
+      "object": "/c/en/brush",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/brush+under+the+carpet-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/tar+with+the+same+brush-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-3126ecc76ec2e5e185839f02005116cae3ada262e6349d70785b1f07622dcaf1-1",
+      "object": "/c/en/drain",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/circling+the+drain-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-e96685237cadd5ba9357a3b591faf30bb040b96eeff3678f9b893276eae351e6-1",
+      "object": "/c/en/ear",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/play+by+ear-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+deaf+ear-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-c09065a537e9d2351ee5a943837c71e50ffcbe530e4dfe85009cf7085efdfdae-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-310577e9db3e2bb29d1c057aa69028c99557933a31aa1f40b9dc482668512e60-1",
+      "object": "/c/en/head",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+someone's+head+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+head+around+something-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-ca28315bcd50121ec8f92338e8d7a02e182c13077e5690918c2968b7fcfa4071-1",
+      "object": "/c/en/skin",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/save+your+skin-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/skin+someone+alive-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hair",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+your+hair+down-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/tear+your+hair+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-798341c107b498b035336b611763f805c8e6914b41cdc3ac9cbb1184798fe2ec-1",
+      "object": "/c/en/door",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/close+the+stable+door+after+the+horse+has+bolted-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/handle",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fly+off+the+handle-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/get+a+handle+on-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-ae2d2148581628cbbcf0847d33e5d88b4bf00c92f34879825ef6ac4b9d1d9f3f-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/take+your+hat+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-8c2a0671702fd9ba2fcf3db670542f66df9adb90566ca3eb231813ae8655ce9a-1",
+      "object": "/c/en/head",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+someone's+head+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+head+around+something-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/take+your+hat+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-90652c16b540b71ead02118f9f2515c38d1302b67ded350057aa6dc30514de1e-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/take+your+hat+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-cef0c3730922dc3c07281bb3dd816759bea2a3b380f9a01d31588e89ee3f8d81-1",
+      "object": "/c/en/neck",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/stick+your+neck+out-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/head",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+someone's+head+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+head+around+something-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-05159cb785cd10571b4a112b5b03ae1ae7831075a19a64bb235853d38158df94-1",
+      "object": "/c/en/ship",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ship+came+in-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/head",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+someone's+head+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+head+around+something-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-bb823115492efcc56651ef1b1efb7a1eee6637afc6c64c2342a2251342433604-1",
+      "object": "/c/en/chest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+it+off+your+chest-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/heart",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bare+your+heart-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/melt+your+heart-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/wear+your+heart+on+your+sleeve-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-1740577c2387d74abb71684de94a963bae294a119221ba71a206066a5bc85346-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/heart",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bare+your+heart-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/melt+your+heart-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/wear+your+heart+on+your+sleeve-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-64768ddaaa7cb59de77829ccfed4434b50c5bacd308c965a4161a67ea7bc7fc9-1",
+      "object": "/c/en/dirt",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/dish+the+dirt-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hole",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ace+in+the+hole-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-bb9cd4fb109d57d2b4ec65fc4de5c637c4bfe80f10f4da3221d9fe633d8e9946-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hole",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ace+in+the+hole-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-62c8051b2f51e23da4226d4aa6e5a7f753e6c34eb903cfe1257124469f5ce1d3-1",
+      "object": "/c/en/wall",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drive+someone+up+the+wall-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/hole",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ace+in+the+hole-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-bc0d669a75b5d35bd80b4113195b1824778570988d36780fa43992e374cb71b5-1",
+      "object": "/c/en/a",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+chain+is+no+stronger+than+its+weakest+link-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+long+row+to+hoe-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+lost+ball+in+the+high+weeds-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+rising+tide+lifts+all+boats-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+steal-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/a+watched+pot+never+boils-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/beat+a+dead+horse-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/bust+a+move-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/call+a+spade+a+spade-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/call+a+spade+a+spade-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/call+it+a+day-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/can't+hold+a+candle-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/cast+a+long+shadow-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/chew+on+a+bone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+blank-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/drop+a+bombshell-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/every+cloud+has+a+silver+lining-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/get+a+grip-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+a+handle+on-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+ducks+in+a+row-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/give+someone+a+run+for+their+money-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hang+by+a+thread-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/have+a+crack-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/have+a+go-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/have+a+trick+up+your+sleeve-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+a+nerve-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+killing-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+mountain+out+of+a+molehill-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+mountain+out+of+a+molehill-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/mess+with+a+bull,+you+get+the+horns-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/pull+a+rabbit+out+of+a+hat-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/put+a+damper+on+something-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/put+somebody/something+on+a+pedestal-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/smell+a+rat-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/spinning+a+yarn-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/strike+a+chord-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+punch-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/take+someone+down+a+peg-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+someone+for+a+ride-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+bone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+line-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+blind+eye-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+deaf+ear-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+new+leaf-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/walk+a+fine+line-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/horse",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/back+the+wrong+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/beat+a+dead+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/close+the+stable+door+after+the+horse+has+bolted-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-a5edb39452052caead7a1dba287163adb8135d296f7ed8c8452622f9a65fec80-1",
+      "object": "/c/en/parade",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rain+on+your+parade-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/horse",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/back+the+wrong+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/beat+a+dead+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/close+the+stable+door+after+the+horse+has+bolted-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-c3d20a488b2c841e44693845ce69f0ec6e9a4835bdd5b105e1a28116a892a712-1",
+      "object": "/c/en/show",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/run+the+show-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/show+someone+the+ropes-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/show+your+true+colors-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/horse",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/back+the+wrong+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/beat+a+dead+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/close+the+stable+door+after+the+horse+has+bolted-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-893fe3e5e06694302a8c9bd1c3fe1eedb25797798ce4e558597f9b8c7da6abc1-1",
+      "object": "/c/en/throat",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/jump+down+someone's+throat-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/horse",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/back+the+wrong+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/beat+a+dead+horse-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/close+the+stable+door+after+the+horse+has+bolted-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-14db7e19ceacab0efa824e82239331311947086138fec7b754c3660f0a451a22-1",
+      "object": "/c/en/bar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/lower+the+bar-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ice",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+the+ice-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/skate+on+thin+ice-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-39ee13702681524f5a37634a6630649435dbc5a67c1c4de006fa4db21415dc53-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ice",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+the+ice-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/skate+on+thin+ice-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-55c083b87da7aaabf3548082199d7ee4cda19f136db65e4be9eb41d289036a63-1",
+      "object": "/c/en/laundry",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/iron",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/strike+while+the+iron+is+hot-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-cee01a93ed45447e75719650a1517164c5aef229c0dd51ddbfeb01d0ccc6e063-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/leaf",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+new+leaf-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-0ce97ed5bc152ecd822696364b2868ec407d9427a529f7e1bc290860a4d2092b-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/leaf",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+new+leaf-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-53a7f534079321629902f59732e8b9d94f08ff325ff901c129a2e4a08c60aa0b-1",
+      "object": "/c/en/trees",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/money+doesn`t+grow+on+trees-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/leaf",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+a+new+leaf-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-1a9af1d46943eb5fa913e46928709e72ad55b6adb9193a55a0c7f75104f03a1b-1",
+      "object": "/c/en/earth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+someone+down+to+earth-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/life",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/breathe+life+into-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-70b96015a26708d37227d6e81d1381d7c67bcbe73b82dd78dc146a0cb0f7ff41-1",
+      "object": "/c/en/book",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/line",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+the+line-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+line-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/walk+a+fine+line-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-4e45e260ba3a233655f70ef7c8686369dd29852955b0b7d9ead44987fe967559-1",
+      "object": "/c/en/play",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/play+by+ear-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/play+into+someone's+hands-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/line",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+the+line-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+a+line-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/walk+a+fine+line-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-e1875d94430c6722bafd0f01ba8c7039913adb25381a68c75c5bffffd35dc08d-1",
+      "object": "/c/en/can",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+off+more+than+you+can+chew-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/lip",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+your+lip-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/zip+your+lip-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-011f0145d6bac19588144644faacd5bb8c0c3765f0c72e3e7a1341e9775dcbe2-1",
+      "object": "/c/en/mouth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/lip",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+your+lip-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/zip+your+lip-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-e299f0eeda5c71f7267a93379c9d38eb163546cc114b0b373a10fa77b0643f6f-1",
+      "object": "/c/en/bottle",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+genie+out+of+the+bottle-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/milk",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+cry+over+spilt+milk-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-7f5e7977cb7244976f0f38114258b59ca26e191d74fb3491b871c5b3e3d29fd6-1",
+      "object": "/c/en/carpet",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/brush+under+the+carpet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+things+under+the+carpet-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/money",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/give+someone+a+run+for+their+money-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/made+of+money-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/money+doesn`t+grow+on+trees-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-4cfa75dad54cef06ddc06acae36371737cc2c41f142f3e3b452c3d9f8d0a9198-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/money",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/give+someone+a+run+for+their+money-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/made+of+money-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/money+doesn`t+grow+on+trees-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-9bde57207de1023de63748a3ec54e9ec1e659c4b55f6ee232b6111366957ab7d-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/money",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/give+someone+a+run+for+their+money-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/made+of+money-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/money+doesn`t+grow+on+trees-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-54e451a4ed84fb3e9586426e80e932388752e4ca63dcebc27f65bbd1db335abe-1",
+      "object": "/c/en/book",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/monkey",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+the+monkey+off+your+back-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-c21140add8a726d5145863ce9a7633ea8129794e02cac0d8cddec5894fb8d7c5-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/monkey",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+the+monkey+off+your+back-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-aa5361d7569bb86cb06a4b08bb6425aaa500663968a5419176f76ee63c62ccd5-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/moss",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-33605954060a49a3a721ccbfc41e92dc0fc61f88ccc626d79978db86030593a2-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/moss",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-d43286598b8a6322feafa26708cdf0c83db1bc76ffd3efb0a378dc69c9d5207f-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/moss",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-df657f752fb99f4387471f0f5f17f88bf42596b7baa792e8cc80db21573fdc3a-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/moss",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-ea2f09082e74b34423403660e367c9948df2effab9d037876f2275e001c05a16-1",
+      "object": "/c/en/picture",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/be+out+of+the+picture-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/mountain",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+mountain+out+of+a+molehill-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-54103aa12e92b61ba82e2f977c8601532456aa1ad32c3aaf6cb675b00b39a44e-1",
+      "object": "/c/en/head",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+someone's+head+off-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/get+your+head+around+something-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/mouth",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ]
+    },
+    {
+      "id": "atlocation-490c70ea6345d76f3cc28260ce28dbcdf414e0eb9e476e55fbf1b6c5bedb4049-1",
+      "object": "/c/en/nose",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+clean-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+to+the+grindstone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+your+nose+up-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/mouth",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ]
+    },
+    {
+      "id": "atlocation-6b2dd75658033df7ed5c8813aef124eb10c954b9bb0ac2f48a12934273ff72fb-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/nail",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+nail+on+the+head-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-712523476fd4e11df436ed53a65d8e328e143376d2c0651beba93e0d057ba132-1",
+      "object": "/c/en/book",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/name",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/your+name+is+mud-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-003b0940e89032290339a7c7d6c7ebb8fecc4671fe0c72c3f4c4901f02aa3197-1",
+      "object": "/c/en/bottle",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+genie+out+of+the+bottle-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/neck",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/stick+your+neck+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-1ca1cb5dfcc451e7a3b6bd4b9d2b0ba75a209446c224c2fb19f8557b5aac1188-1",
+      "object": "/c/en/shoulder",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/chip+on+your+shoulder-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/neck",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/stick+your+neck+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-eb625cfa1ca1069340c9c660413a600413c86457da12135658a149bd6aa1973e-1",
+      "object": "/c/en/teeth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/armed+to+the+teeth-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+your+teeth+on-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/nerve",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/hit+a+nerve-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-aa8a2c34ffa44ed01be3e7db22668c98e0a8ff4d25c238308c6f4f30b0b39eef-1",
+      "object": "/c/en/tongue",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+your+tongue-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hold+your+tongue-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/nerve",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/hit+a+nerve-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-da9f94a6c1878c12c207e23c4ca1d876c3b9fa5e54bb5b174490158e3f5d5256-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/nose",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+clean-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+to+the+grindstone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+your+nose+up-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-e5da2192bce25d7cc0b289e022b48ad4f49be05e8767ffb014051f420e107fa6-1",
+      "object": "/c/en/face",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/about+face-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/face+the+music-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/face+your+demons-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/nose",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+clean-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+nose+to+the+grindstone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/turn+your+nose+up-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-639e818871c61849e3cdf7a14b89272411b89c7619050695ec791034eb80b814-1",
+      "object": "/c/en/can",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+off+more+than+you+can+chew-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/peas",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-c599af31036dcdb1ca1474496bcbad8ecf4aec8131bdae225798d5f27a080df1-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/peas",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-e5454c19f86e418cc05f48163142af081cc04b3cb3993522ec8985ecb3c5b542-1",
+      "object": "/c/en/pod",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-6"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/peas",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-8aac8955643a9aefb423899ad0c1698143ee20e311c4428b908a98bac2daa9f0-1",
+      "object": "/c/en/wall",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drive+someone+up+the+wall-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/picture",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/be+out+of+the+picture-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-af72c707493a16b71fc9b7e8d61bcba3af5b63ae995f22c0a89f28c61b06e9b5-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/pie",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/eat+humble+pie-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-7f3dd11fa2adb45797ac8ae5868e55724340089efc0dbe3b6525dd373e9d3144-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/pie",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/eat+humble+pie-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-93d3deeb07d3968f5be48625f8c5a5209c19cc0e5ebe2b43bac6b0af34a36495-1",
+      "object": "/c/en/bottle",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+genie+out+of+the+bottle-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/pill",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bitter+pill+to+swallow-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-52fe49bc439c59b4a089ba9a1f9e7540ca98b4677f962c61b010d97d599dfd26-1",
+      "object": "/c/en/jar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/pill",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bitter+pill+to+swallow-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-25f270cad906954dd4390256178e928182cf33836a017cdd3cc214dd04cc18aa-1",
+      "object": "/c/en/machine/n/wn/artifact",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/103705309-n",
+        "http://wordnet-rdf.princeton.edu/wn31/103706297-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/push_button/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104033499-n"
+      ]
+    },
+    {
+      "id": "atlocation-579f4d1880cec9ee9701402b28ffdc68e7ea789982f89be4977e63d8fe4cbc67-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rain",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rain+on+your+parade-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-463f3eefa4c79c6541116ab90cf8e05f59eeb0c9643514999d446a83c950d8f4-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rain",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rain+on+your+parade-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-6df68a2316314ddeb850715812364875887d4b3508f01f1b9d642eeeea36c163-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ring",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-b6f28f31a9cff732c2de3f8c988e0ad3c3e2d47058747244280db59f2a99b235-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ring",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/ring+a+bell-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/throw+your+hat+in+the+ring-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-bc8954d4835fe9d5d88a41ae8b9fe293fe5ca3538e6238ceb30c0a5874832853-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rock",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-6a6e05f98094d6882604f63757f29551931efd3d305c2e46468715df639ba485-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rock",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-a182cb5b1fe5fd06aa6d6b0c9acb1e67e9cd88fb5a50cfa3b33cc086139bb084-1",
+      "object": "/c/en/mountain",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/make+a+mountain+out+of+a+molehill-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rock",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-7c8ddd7866cffbf0fb1687642440db3e45ec0299598f0a4546ff6a42b1d8224f-1",
+      "object": "/c/en/mountains",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/move+mountains-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rock",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-a73f2c0bd627de0a3403209b784cf21d2247c910ef69c2062e0541e7059159f1-1",
+      "object": "/c/en/water",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/rock",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rock+the+boat-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-22e52b20f4f2ffdfde8fa568ba3741105dbbf7675fb5873178dde60f9fc7e396-1",
+      "object": "/c/en/earth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+someone+down+to+earth-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sand",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-1b97e68a9afaab4bf3cb458268c5edb5427f67e99502156bfb0bf475f80c1bd8-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sand",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-0fb01dbdc1d3ceba32eb291562c76e9940809a6365b30f5996ddd4d3b641e3f7-1",
+      "object": "/c/en/shoes",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sand",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-506e50b2308c849e8a7089a6431e510cf473ea97042d0dafd6d771ddb75b9cdc-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sand",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bury+your+head+in+the+sand-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/draw+a+line+in+the+sand-p#Component-6"
+      ]
+    },
+    {
+      "id": "atlocation-3420f9fa417fc973a0c86b79545dfb9f08c08ccfad1e984b2aeceec85c182581-1",
+      "object": "/c/en/pod",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/like+two+peas+in+a+pod-p#Component-6"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/seeds",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sow+the+seeds-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-52d67ef99235d1e5fb6031012f114cd1cb14452e16765f57a1229e454bb016e0-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/seeds",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sow+the+seeds-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-711b169e3922054d46b0e673935f6e473bf9bb7ea5734a726f921147731caf7a-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shadow",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cast+a+long+shadow-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-90d26048e6bbae4d67035ec822f632af96f1bae755a8f050bda151c5607be046-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shadow",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cast+a+long+shadow-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-4ead7698b59dcb7eac413f08988d72541dd9a609e27ae80e813d6bb3fab2aaca-1",
+      "object": "/c/en/light",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/see+the+light-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/shed+light-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shadow",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cast+a+long+shadow-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-6d4a3188969bd5bf8420a94dc25d4095861a23be1fffdb5304c80b2575d8c2ec-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shoes",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-97678778a3e014fd53b0d74229465169c48363be115b851dd1f6757d735a4a0e-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shoes",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-5f2faec361f004cbf3160d325c78b2e3e2bbfca07847dc6ec4345d235f8566a7-1",
+      "object": "/c/en/feet",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/drag+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/fall+on+your+feet-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/find+your+feet-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/sweep+off+your+feet-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shoes",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-1978e771347dbe9dfc0e19619b7d741f7e0ffd89faf09a10f0844dcae89c3efa-1",
+      "object": "/c/en/floor",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+the+floor-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shoes",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-e5e54e8082f950298fd3c4f505c0282948233db85e574ce9536eab601af58fd2-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/shoes",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-fb4ae58953ca62341353b7b7a7fd09aa9425ab1375f6c41081a365689784e6e9-1",
+      "object": "/c/en/hill/n/wn/object",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/109325914-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ski_tow/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104238755-n"
+      ]
+    },
+    {
+      "id": "atlocation-22b6bcee6674026ac0f07434296597a4c52346f3b9d58d47a6f4fc36679e4320-1",
+      "object": "/c/en/mountain/n/wn/object",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/109382700-n"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/ski_tow/n/wn/artifact",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/104238755-n"
+      ]
+    },
+    {
+      "id": "atlocation-43c0337f1d5f561596d9b994cc10c2341748b97cae68eb819fe24f12ba377f13-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/skin",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/save+your+skin-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/skin+someone+alive-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-663d47e4e828472018f62d64bb408da28b18a15f8ac5e396fa65269b2882abe7-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sleeping",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+sleeping+dogs+lie-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-143ccc9de339ea0cc6b2826a4d2fc2a83ef35e9cf3d8a41285adcdde754004df-1",
+      "object": "/c/en/air",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/air+your+dirty+laundry+(in+public)-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/don't+wash+air+dirty+laundry+in+public-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/pluck+out+of+the+air-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/walking+on+air-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/smoke",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+smoke-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/no+smoke+without+fire-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-37ccae9cd172fbaa8ff15718848ef8432f1482814403a7c7993a3c92f8bfe50f-1",
+      "object": "/c/en/bar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/lower+the+bar-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/smoke",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+smoke-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/no+smoke+without+fire-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-6155770ca26a3802eb7f89015cdedeb88a250b270bc3a4bc4af9a8258f517ede-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/socks",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/knock+your+socks+off-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-28bb3e1c78fa647d634e6d20ea85e9d88580f84fc47dbbe29488b19894e14cca-1",
+      "object": "/c/en/shoes",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/socks",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/knock+your+socks+off-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-2dcff4f16a5f49d68176630a7b39a33abeabdecc77adfc6019f0437b0bf8f72c-1",
+      "object": "/c/en/heaven",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/soul",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sell+your+soul-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-b1ea534d20757164bce5d562f21ab09d88dd1d3028b0a7d439eb659463335b74-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/stick",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/stick+to+your+guns-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/stick+your+neck+out-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-28e1d9c6223f9f457f1aef30b270d28037846542a16b000a2fc83cb5341b91d7-1",
+      "object": "/c/en/mud",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/your+name+is+mud-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/stick",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/stick+to+your+guns-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/stick+your+neck+out-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-c29ac687dd2ab1942b6037d6f381ee150d27732bf64ef981dde603db92ce0034-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/stick",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/stick+to+your+guns-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/stick+your+neck+out-p#Component-1"
+      ]
+    },
+    {
+      "id": "atlocation-e95fd28004977e1f62e5dbd2e3b1e58c2a90618169390bbf35d95c999840522d-1",
+      "object": "/c/en/box",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/open+pandora's+box-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/stuff",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+sweat+the+small+stuff-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-21f6d5bd77b0fbfb0465df7a34131aa0f38423811b0ade97d5141bebc5c2236b-1",
+      "object": "/c/en/shoes",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/stuff",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+sweat+the+small+stuff-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-62a2ed6da6fe8821b262cfc91ff65c68cadc67302c7c5dddd292cea998ae7d15-1",
+      "object": "/c/en/stuff",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+sweat+the+small+stuff-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/stuff",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+sweat+the+small+stuff-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-63cd26681e24e47c740eeb8f52ef12075fc887e71b93e96e09ba26473930859c-1",
+      "object": "/c/en/bed",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+out+of+bed+on+the+wrong+side-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sweat",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+sweat+the+small+stuff-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-974cd76093021319183a899f8e9c45ce9d6fd31f5e18f7481267f993192db69e-1",
+      "object": "/c/en/stone",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+rolling+stone+gathers+no+moss-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/etched+in+stone-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/kill+two+birds+with+one+stone-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/leave+no+stone+unturned-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/set+in+stone-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/sword",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/fall+on+your+sword-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-56f0b93ad6d3ae3007deca98388522af725f9ea011ac32e4023ad0adaeaa1531-1",
+      "object": "/c/en/bar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/lower+the+bar-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/tab",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/pick+up+the+tab-p#Component-4"
+      ]
+    },
+    {
+      "id": "atlocation-b5c8182ae6116188ad865862b1c45b5762ef16448518f0b87a7ae6fafd5fbd08-1",
+      "object": "/c/en/mouth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/teeth",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/armed+to+the+teeth-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+your+teeth+on-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-4cbd3c9644eed07c5453e12a0e55ea84f6ddf7f5f34de7d330ce158279d450ee-1",
+      "object": "/c/en/plate",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/step+up+to+the+plate-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/teeth",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/armed+to+the+teeth-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/cut+your+teeth+on-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-3844ee96dbc88a19674325e97051d6c88d7229c353c22b74fe874fc6b2830f93-1",
+      "object": "/c/en/cheek",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/turn+the+other+cheek-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/tongue",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+your+tongue-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hold+your+tongue-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-9bfd00d7116f50bb39742645c68aea0a0dc1069729d9527ee940ad84bdc2433e-1",
+      "object": "/c/en/mouth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/tongue",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+your+tongue-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/hold+your+tongue-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-a9e05496a9acf0996c7f4b3a5e4190ef9a45d9f310a71af07c437d98b0d63885-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/trees",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-7",
+        "http://wordnet-rdf.princeton.edu/wn31/money+doesn`t+grow+on+trees-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-db74000a9cd6f4b45dc975f2f48785b7ff908841f001c87df620ce543007d5c2-1",
+      "object": "/c/en/bottle",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/let+the+genie+out+of+the+bottle-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-d7fa90ba81debf3517c8d55134fce5821f0acb19abbe2198c2562b260e8c564b-1",
+      "object": "/c/en/bridge",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bridge+the+gap-p#Component-1",
+        "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-2e6accc0fb6daf537bd3be7a9643e3a74215c46db53f637707437444d044d1c4-1",
+      "object": "/c/en/bucket",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/kick+the+bucket-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-d744eaf04b803372ed5e0a88f00b5c5c86eb46a08ce02b97f6cc5b90385cdcd7-1",
+      "object": "/c/en/can",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+off+more+than+you+can+chew-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-74038ca48dd31fd5d11698987897f0513f3b97017b94f557d3d281dbb82d66be-1",
+      "object": "/c/en/drain",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/circling+the+drain-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-31011af3ef0384b6b8f968f86ead7aa1cba2ff0449a3416fe7f62f3faa1ea484-1",
+      "object": "/c/en/ice",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+the+ice-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/skate+on+thin+ice-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-ee4e8d733c667806956a4bd0fb4111d059826f67742b7ee4b3121710bf30a223-1",
+      "object": "/c/en/jar",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/caught+with+your+hand+in+the+cookie+jar-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-d57540f66b22fd12f37bce895fa4f2f8b91acb6732d9433435a567261ab2959e-1",
+      "object": "/c/en/milk",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+cry+over+spilt+milk-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-77128174c8e449f961a121c03c8eb5b16ffeeffe92ce38adf663ba3ff5dee439-1",
+      "object": "/c/en/mouth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-714ca5dce55cc8b6de0b1fed40292073be82b3efa11f02557238c34dd3e2557f-1",
+      "object": "/c/en/mud",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/your+name+is+mud-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-fcced40723880782253a13707ced21adbcb5026cd7afc3b42af6e52189386b3f-1",
+      "object": "/c/en/rain",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/rain+on+your+parade-p#Component-1"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-8a6471e0e21c148ca64604942bd16da24589bd637d134b8b8450c7a575833773-1",
+      "object": "/c/en/steam",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+off+steam-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/gather+steam-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-62b3c0250ec96b6c9258d52877f64fd108542b4458910b420dc023c125837f5c-1",
+      "object": "/c/en/sweat",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+sweat+the+small+stuff-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-a6e860c1f76045affb8c5fe7260cb3296d229f11942ef1f71d96d91069b39108-1",
+      "object": "/c/en/well",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sit+well+with-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/water",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-f58047a2433d1f553fa96de832f11fdf2c6a6599ee3b3909d52ecf9af965a5e9-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/weeds",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+lost+ball+in+the+high+weeds-p#Component-7"
+      ]
+    },
+    {
+      "id": "atlocation-ec47c4f7906c495f3be8bf36c580045556f1aad6174df3ef2cf4fc94b705d8e1-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/well",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sit+well+with-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-a75e2c4358d82df2a145cb32d90fbc7d549430f3b520af4ca9fba8d604186e7a-1",
+      "object": "/c/en/water",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/blow+out+of+the+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/fish+out+of+water-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+head+above+water-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/tread+water-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/well",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/sit+well+with-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-9d2860dcb2f0c83d9072b69753e314479208edd1553f46f20591302880185830-1",
+      "object": "/c/en/bird",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/a+little+bird+told+me-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/early+bird+catches+the+worm-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/wing",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/take+someone+under+your+wing-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-139f56d7b96884d1af61c88e828454d6356198b2912e5fcb90f3abb86127326f-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/wolf",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/cry+wolf-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-fe83d2821a874d6ac6fa8f690ef244e825988a8d19ec02c96cde822b9f0df02a-1",
+      "object": "/c/en/forest",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/can't+see+the+forest+for+its+trees-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/wolves",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/throw+someone+to+the+wolves-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-43a43c4ccb113ca3d8578dafff9eadb48516f23598f4e3500801fd9e5e5fba7d-1",
+      "object": "/c/en/book",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+judge+a+book+by+the+cover-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/take+a+leaf+out+of+someone's+book-p#Component-7"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/words",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/eat+your+words-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/mark+my+words-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/mince+words-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-ad5230ed27f8a5c0c257a9c55eed29e6c71d6ce2fc7e95611a888ea5dd3be559-1",
+      "object": "/c/en/mouth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/don't+look+a+gift+horse+in+the+mouth-p#Component-8"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/words",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/eat+your+words-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/mark+my+words-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/mince+words-p#Component-2"
+      ]
+    },
+    {
+      "id": "atlocation-b00d5135703bb2eae69b0e65f4532aeeb80d7def904f0d220174d5c9d74a6f4f-1",
+      "object": "/c/en/can",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bite+off+more+than+you+can+chew-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/worms",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-67b6d1f3f825f1ef88c391bbba3327594e2a2e18bd2da3ee7b421205d957ff9d-1",
+      "object": "/c/en/earth",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+someone+down+to+earth-p#Component-5",
+        "http://wordnet-rdf.princeton.edu/wn31/move+heaven+and+earth-p#Component-4"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/worms",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-580b71f0feda1d15dc48714f5584a07a75242ef145e2ac9645ab4e20c26bf5f9-1",
+      "object": "/c/en/ground",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/break+ground-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/get+off+the+ground-p#Component-4",
+        "http://wordnet-rdf.princeton.edu/wn31/hit+the+ground+running-p#Component-3",
+        "http://wordnet-rdf.princeton.edu/wn31/keep+your+ear+to+the+ground-p#Component-6",
+        "http://wordnet-rdf.princeton.edu/wn31/run+something+into+the+ground-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/worms",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-c10e51145e4e8c23e9be27efd92df4d8efc50379c93112709019555df07ca3b3-1",
+      "object": "/c/en/tree",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/barking+up+the+wrong+tree-p#Component-5"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/worms",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/opening+a+can+of+worms-p#Component-5"
+      ]
+    },
+    {
+      "id": "atlocation-2291bb79f74e96295cdcbaf04e5ab29ec11cf3eb01bc323d114c8f5667b312fb-1",
+      "object": "/c/en/finger",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/point+the+finger-p#Component-3"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/wrinkles",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/get+the+wrinkles+out-p#Component-3"
+      ]
+    },
+    {
+      "id": "atlocation-72a8f5c7a0c05f2306a869571343dae7acba611e0c17c491fee5782ce5b0e778-1",
+      "object": "/c/en/home",
+      "object_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/bring+home+the+bacon-p#Component-2"
+      ],
+      "predicate": "AtLocation",
+      "subject": "/c/en/yourself",
+      "subject_wordnet_mappings": [
+        "http://wordnet-rdf.princeton.edu/wn31/put+yourself+in+someone's+shoes-p#Component-2",
+        "http://wordnet-rdf.princeton.edu/wn31/shoot+yourself+in+the+foot-p#Component-2"
+      ]
+    }
+  ],
+  "metadata": {
+    "mapping_semantics": "Exact source links, including lexical/phrase targets; not verified synset equivalences",
+    "mapping_source": "conceptnet_wordnet_mappings.csv",
+    "mapping_source_sha256": "9cb84e5000bc1f87e3c16cdc80c18d9b6d369e9f812aec659152094a6a2b2b98",
+    "predicate": "AtLocation",
+    "robokgnet_wordnet_version": "3.0",
+    "source": "filtered_conceptnet.csv",
+    "source_sha256": "f59b0a01506ddda057543eb7e5e10aaf55328e5d5b1fc31676dcb6c1b5b8443e",
+    "statistics": {
+      "aligned_object_concepts": 99,
+      "aligned_subject_concepts": 127,
+      "ambiguous_object_mappings": 36,
+      "ambiguous_subject_mappings": 57,
+      "atlocation_source_triples": 261,
+      "unmapped_objects": [],
+      "unmapped_subjects": []
+    },
+    "statistics_unit": "Distinct concepts per endpoint role; source triples count CSV rows",
+    "wordnet_3_0_conversion": "Not performed: no verified cross-version mapping available",
+    "wordnet_mapping_version": "3.1"
+  }
+}

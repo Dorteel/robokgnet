@@ -1,0 +1,3148 @@
+{
+  "classes": {
+    "bring-11.3": {
+      "frames": [
+        {
+          "description": {
+            "descriptionNumber": "0.2",
+            "primary": "Basic Transitive",
+            "secondary": "",
+            "xtag": "0.2"
+          },
+          "examples": [
+            "Nora brought the book."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "equals"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E1"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "cause"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "0.2",
+            "primary": "NP-PP",
+            "secondary": "Goal-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "Nora brought the book to the meeting."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "equals"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E1"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "cause"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "against before into on to onto"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Destination"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "0.2",
+            "primary": "PP-NP",
+            "secondary": "Goal-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "Nora brought to lunch the book."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "equals"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E1"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "cause"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "against before into on to onto"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Destination"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "0.2",
+            "primary": "NP-PP",
+            "secondary": "Source-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "Nora brought the book from home."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "start(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Source"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "equals"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E1"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "start(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Source"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "cause"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "Value": "+",
+                          "type": "src"
+                        },
+                        "children": [],
+                        "tag": "SELRESTR",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Source"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "0.2",
+            "primary": "NP-PP-PP",
+            "secondary": "Source-PP Goal-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "Nora brought the book from home to the meeting."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "start(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Source"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "equals"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E1"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "start(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Source"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "cause"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "Value": "+",
+                          "type": "src"
+                        },
+                        "children": [],
+                        "tag": "SELRESTR",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Source"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "to"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Destination"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "",
+            "primary": "NP-ADVP-PRED",
+            "secondary": "here/there",
+            "xtag": ""
+          },
+          "examples": [
+            "The train brought us here."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "motion"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E0)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "end(E1)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Destination"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "equals"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E1"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "cause"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "E0"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Destination"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "Value": "+",
+                          "type": "adv_loc"
+                        },
+                        "children": [],
+                        "tag": "SYNRESTR",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        }
+      ],
+      "members": [
+        {
+          "attributes": {
+            "name": "bring",
+            "wn": "bring%2:38:00 bring%2:35:00 bring%2:35:02"
+          },
+          "declaring_class": "bring-11.3-1",
+          "name": "bring",
+          "wordnet_mappings": [
+            {
+              "sense_key": "bring%2:38:00::",
+              "synset_id": "bring.v.01"
+            },
+            {
+              "sense_key": "bring%2:35:00::",
+              "synset_id": "bring.v.04"
+            },
+            {
+              "sense_key": "bring%2:35:02::",
+              "synset_id": "bring.v.06"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "take",
+            "wn": "take%2:38:09 take%2:38:10 take%2:42:10"
+          },
+          "declaring_class": "bring-11.3",
+          "name": "take",
+          "wordnet_mappings": [
+            {
+              "sense_key": "take%2:38:09::",
+              "synset_id": "lead.v.01"
+            },
+            {
+              "sense_key": "take%2:38:10::",
+              "synset_id": "bring.v.01"
+            },
+            {
+              "sense_key": "take%2:42:10::",
+              "synset_id": "carry.v.02"
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "attributes": {
+            "type": "Agent"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "Value": "+",
+                    "type": "int_control"
+                  },
+                  "children": [],
+                  "tag": "SELRESTR",
+                  "text": ""
+                }
+              ],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        },
+        {
+          "attributes": {
+            "type": "Theme"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "Value": "+",
+                    "type": "concrete"
+                  },
+                  "children": [],
+                  "tag": "SELRESTR",
+                  "text": ""
+                }
+              ],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        },
+        {
+          "attributes": {
+            "type": "Source"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "Value": "+",
+                    "type": "location"
+                  },
+                  "children": [],
+                  "tag": "SELRESTR",
+                  "text": ""
+                }
+              ],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        },
+        {
+          "attributes": {
+            "type": "Destination"
+          },
+          "children": [
+            {
+              "attributes": {
+                "logic": "or"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "Value": "+",
+                    "type": "animate"
+                  },
+                  "children": [],
+                  "tag": "SELRESTR",
+                  "text": ""
+                },
+                {
+                  "attributes": {},
+                  "children": [
+                    {
+                      "attributes": {
+                        "Value": "+",
+                        "type": "location"
+                      },
+                      "children": [],
+                      "tag": "SELRESTR",
+                      "text": ""
+                    },
+                    {
+                      "attributes": {
+                        "Value": "-",
+                        "type": "region"
+                      },
+                      "children": [],
+                      "tag": "SELRESTR",
+                      "text": ""
+                    }
+                  ],
+                  "tag": "SELRESTRS",
+                  "text": ""
+                }
+              ],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        }
+      ]
+    },
+    "search-35.2": {
+      "frames": [
+        {
+          "description": {
+            "descriptionNumber": "0.2",
+            "primary": "NP-PP",
+            "secondary": "Theme-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "I searched the cave for treasure."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "search"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Location"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "for"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "0.1",
+            "primary": "PP-PP",
+            "secondary": "Theme-PP Location-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "I searched for treasure in the cave."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "search"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Location"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "for"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "Value": "+",
+                          "type": "loc"
+                        },
+                        "children": [],
+                        "tag": "SELRESTR",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "0.1",
+            "primary": "PP-PP",
+            "secondary": "Location-PP Theme-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "I searched in the cave for treasure."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "search"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Location"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "Value": "+",
+                          "type": "loc"
+                        },
+                        "children": [],
+                        "tag": "SELRESTR",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "for"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Theme"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        },
+        {
+          "description": {
+            "descriptionNumber": "",
+            "primary": "PP",
+            "secondary": "Location-PP",
+            "xtag": ""
+          },
+          "examples": [
+            "I searched through America."
+          ],
+          "semantics": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "search"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "type": "Event",
+                          "value": "during(E)"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Agent"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "Location"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      },
+                      {
+                        "attributes": {
+                          "type": "ThemRole",
+                          "value": "?Theme"
+                        },
+                        "children": [],
+                        "tag": "ARG",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "ARGS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PRED",
+                "text": ""
+              }
+            ],
+            "tag": "SEMANTICS",
+            "text": ""
+          },
+          "syntax": {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "value": "Agent"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [],
+                "tag": "VERB",
+                "text": ""
+              },
+              {
+                "attributes": {},
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [
+                      {
+                        "attributes": {
+                          "Value": "+",
+                          "type": "loc"
+                        },
+                        "children": [],
+                        "tag": "SELRESTR",
+                        "text": ""
+                      }
+                    ],
+                    "tag": "SELRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "PREP",
+                "text": ""
+              },
+              {
+                "attributes": {
+                  "value": "Location"
+                },
+                "children": [
+                  {
+                    "attributes": {},
+                    "children": [],
+                    "tag": "SYNRESTRS",
+                    "text": ""
+                  }
+                ],
+                "tag": "NP",
+                "text": ""
+              }
+            ],
+            "tag": "SYNTAX",
+            "text": ""
+          }
+        }
+      ],
+      "members": [
+        {
+          "attributes": {
+            "name": "advertise",
+            "wn": "advertise%2:32:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "advertise",
+          "wordnet_mappings": [
+            {
+              "sense_key": "advertise%2:32:00::",
+              "synset_id": "advertise.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "check",
+            "wn": "check%2:31:02 check%2:32:10"
+          },
+          "declaring_class": "search-35.2",
+          "name": "check",
+          "wordnet_mappings": [
+            {
+              "sense_key": "check%2:31:02::",
+              "synset_id": "see.v.10"
+            },
+            {
+              "sense_key": "check%2:32:10::",
+              "synset_id": "determine.v.08"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "comb",
+            "wn": "comb%2:35:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "comb",
+          "wordnet_mappings": [
+            {
+              "sense_key": "comb%2:35:00::",
+              "synset_id": "comb.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "dive",
+            "wn": "?dive%2:38:02 ?dive%2:38:01"
+          },
+          "declaring_class": "search-35.2",
+          "name": "dive",
+          "wordnet_mappings": []
+        },
+        {
+          "attributes": {
+            "name": "drag",
+            "wn": "drag%2:35:02"
+          },
+          "declaring_class": "search-35.2",
+          "name": "drag",
+          "wordnet_mappings": [
+            {
+              "sense_key": "drag%2:35:02::",
+              "synset_id": "dredge.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "dredge",
+            "wn": "dredge%2:35:01"
+          },
+          "declaring_class": "search-35.2",
+          "name": "dredge",
+          "wordnet_mappings": [
+            {
+              "sense_key": "dredge%2:35:01::",
+              "synset_id": "dredge.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "excavate",
+            "wn": "excavate%2:39:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "excavate",
+          "wordnet_mappings": [
+            {
+              "sense_key": "excavate%2:39:00::",
+              "synset_id": "excavate.v.01"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "patrol",
+            "wn": "patrol%2:41:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "patrol",
+          "wordnet_mappings": [
+            {
+              "sense_key": "patrol%2:41:00::",
+              "synset_id": "patrol.v.01"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "plumb",
+            "wn": "plumb%2:31:02"
+          },
+          "declaring_class": "search-35.2",
+          "name": "plumb",
+          "wordnet_mappings": [
+            {
+              "sense_key": "plumb%2:31:02::",
+              "synset_id": "plumb.v.03"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "probe",
+            "wn": "probe%2:32:00 probe%2:35:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "probe",
+          "wordnet_mappings": [
+            {
+              "sense_key": "probe%2:32:00::",
+              "synset_id": "probe.v.01"
+            },
+            {
+              "sense_key": "probe%2:35:00::",
+              "synset_id": "probe.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "prospect",
+            "wn": "prospect%2:31:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "prospect",
+          "wordnet_mappings": [
+            {
+              "sense_key": "prospect%2:31:00::",
+              "synset_id": "prospect.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "prowl",
+            "wn": "prowl%2:38:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "prowl",
+          "wordnet_mappings": [
+            {
+              "sense_key": "prowl%2:38:00::",
+              "synset_id": "prowl.v.01"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "quarry",
+            "wn": ""
+          },
+          "declaring_class": "search-35.2",
+          "name": "quarry",
+          "wordnet_mappings": []
+        },
+        {
+          "attributes": {
+            "name": "rake",
+            "wn": "rake%2:39:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "rake",
+          "wordnet_mappings": [
+            {
+              "sense_key": "rake%2:39:00::",
+              "synset_id": "scan.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "rifle",
+            "wn": "rifle%2:35:13"
+          },
+          "declaring_class": "search-35.2",
+          "name": "rifle",
+          "wordnet_mappings": [
+            {
+              "sense_key": "rifle%2:35:13::",
+              "synset_id": "rifle.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "scavenge",
+            "wn": "scavenge%2:35:01"
+          },
+          "declaring_class": "search-35.2",
+          "name": "scavenge",
+          "wordnet_mappings": [
+            {
+              "sense_key": "scavenge%2:35:01::",
+              "synset_id": "salvage.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "scour",
+            "wn": "scour%2:35:03"
+          },
+          "declaring_class": "search-35.2",
+          "name": "scour",
+          "wordnet_mappings": [
+            {
+              "sense_key": "scour%2:35:03::",
+              "synset_id": "scour.v.01"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "scout",
+            "wn": "scout%2:39:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "scout",
+          "wordnet_mappings": [
+            {
+              "sense_key": "scout%2:39:00::",
+              "synset_id": "scout.v.01"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "search",
+            "wn": "search%2:35:00 search%2:39:00 search%2:35:01"
+          },
+          "declaring_class": "search-35.2",
+          "name": "search",
+          "wordnet_mappings": [
+            {
+              "sense_key": "search%2:35:00::",
+              "synset_id": "search.v.01"
+            },
+            {
+              "sense_key": "search%2:39:00::",
+              "synset_id": "search.v.02"
+            },
+            {
+              "sense_key": "search%2:35:01::",
+              "synset_id": "search.v.04"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "shop",
+            "wn": "?shop%2:41:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "shop",
+          "wordnet_mappings": []
+        },
+        {
+          "attributes": {
+            "name": "sift",
+            "wn": "sift%2:38:00 sift%2:35:02"
+          },
+          "declaring_class": "search-35.2",
+          "name": "sift",
+          "wordnet_mappings": [
+            {
+              "sense_key": "sift%2:38:00::",
+              "synset_id": "sift.v.01"
+            },
+            {
+              "sense_key": "sift%2:35:02::",
+              "synset_id": "sieve.v.02"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "trawl",
+            "wn": "trawl%2:33:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "trawl",
+          "wordnet_mappings": [
+            {
+              "sense_key": "trawl%2:33:00::",
+              "synset_id": "trawl.v.01"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "troll",
+            "wn": "troll%2:33:00"
+          },
+          "declaring_class": "search-35.2",
+          "name": "troll",
+          "wordnet_mappings": [
+            {
+              "sense_key": "troll%2:33:00::",
+              "synset_id": "troll.v.04"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "watch",
+            "wn": "watch%2:39:01"
+          },
+          "declaring_class": "search-35.2",
+          "name": "watch",
+          "wordnet_mappings": [
+            {
+              "sense_key": "watch%2:39:01::",
+              "synset_id": "watch.v.05"
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "attributes": {
+            "type": "Agent"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "Value": "+",
+                    "type": "animate"
+                  },
+                  "children": [],
+                  "tag": "SELRESTR",
+                  "text": ""
+                }
+              ],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        },
+        {
+          "attributes": {
+            "type": "Location"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        },
+        {
+          "attributes": {
+            "type": "Theme"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [],
+              "tag": "SELRESTRS",
+              "text": ""
+            }
+          ],
+          "tag": "THEMROLE",
+          "text": ""
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "scope": "Demo bring/search only; member-specific alignments",
+    "semlink_evidence": {
+      "alignments": [
+        {
+          "framenet": "Bringing",
+          "member": "take",
+          "verbnet": "bring-11.3"
+        },
+        {
+          "framenet": "Bringing",
+          "member": "bring",
+          "verbnet": "bring-11.3-1"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "check",
+          "verbnet": "search-35.2"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "probe",
+          "verbnet": "search-35.2"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "scour",
+          "verbnet": "search-35.2"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "search",
+          "verbnet": "search-35.2"
+        }
+      ],
+      "demo_seeds": [
+        {
+          "framenet": "Bringing",
+          "member": "bring",
+          "verbnet": "bring-11.3-1"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "search",
+          "verbnet": "search-35.2"
+        }
+      ],
+      "existing_snapshot": "cmoc/knowledge/robokgnet/data/semlink_subset.json",
+      "note": "Exact class/member mappings only; source contains no role-level alignment.",
+      "parsed_table_sha256": "028d197ee8acb5366d1986e4c68a8dd7faab8960780d18efca03e0578a71ea4f",
+      "retrieved": "2026-09-26T12:01:25.469254+00:00",
+      "source": "https://raw.githubusercontent.com/cu-clear/semlink/master/instances/vn-fn2.json"
+    },
+    "verbnet_version": "2.1",
+    "warnings": [
+      "Uncertain WordNet key excluded: ?dive%2:38:01",
+      "Uncertain WordNet key excluded: ?dive%2:38:02",
+      "Uncertain WordNet key excluded: ?shop%2:41:00"
+    ],
+    "wordnet_version": "3.0"
+  }
+}

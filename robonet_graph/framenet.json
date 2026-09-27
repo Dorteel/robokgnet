@@ -1,0 +1,1429 @@
+{
+  "alignments": [
+    {
+      "exported_class_scope": "bring-11.3",
+      "framenet": "Bringing",
+      "member": "take",
+      "verbnet": "bring-11.3"
+    },
+    {
+      "exported_class_scope": "bring-11.3",
+      "framenet": "Bringing",
+      "member": "bring",
+      "verbnet": "bring-11.3-1"
+    },
+    {
+      "exported_class_scope": "search-35.2",
+      "framenet": "Scrutiny",
+      "member": "check",
+      "verbnet": "search-35.2"
+    },
+    {
+      "exported_class_scope": "search-35.2",
+      "framenet": "Scrutiny",
+      "member": "probe",
+      "verbnet": "search-35.2"
+    },
+    {
+      "exported_class_scope": "search-35.2",
+      "framenet": "Scrutiny",
+      "member": "scour",
+      "verbnet": "search-35.2"
+    },
+    {
+      "exported_class_scope": "search-35.2",
+      "framenet": "Scrutiny",
+      "member": "search",
+      "verbnet": "search-35.2"
+    }
+  ],
+  "frames": {
+    "Bringing": {
+      "definition": "This frame concerns the movement of a Theme and an Agent and/or Carrier.   The Agent, a person or other sentient entity, controls the shared Path by moving the Theme during the motion. In other words, the Agent has overall motion in directing the motion of the Theme.  The Carrier may be a separate entity, or it may be the Agent's body. The Constant_location may be a subregion of the Agent's body or (a subregion of) a vehicle that the Agent uses.  'Karl carried the books across campus to the library on his head.' 'Karl carried the books across campus to the library in his truck.' 'Karl carried the books across campus to the library by truck.' 'The truck carried the books across campus to the library in specially designed boxes.' The  FEs include Path, Goal, and Source.  Area is an area that contains the motion when the path is understood as irregular.   This frame emphasizes the path of movement as opposed to the FEs Source or Goal as in Filling or Placing. ",
+      "frame_elements": {
+        "Agent": {
+          "core_type": "Core",
+          "definition": "The Agent is a sentient being who physically controls the movement of the Theme via the carrier, accompanying the Theme. 'Karl carried the books across the campus to the library.'",
+          "id": 2117
+        },
+        "Area": {
+          "core_type": "Core",
+          "definition": "Area is used for descriprion of a general area in which the carrying action takes place when the motion is understood to be irregular or not to consist of a single, linear path.",
+          "id": 2123
+        },
+        "Beneficiary": {
+          "core_type": "Extra-Thematic",
+          "definition": "This FE describes the particpant for whom the bringing is beneficial. ",
+          "id": 10246
+        },
+        "Carrier": {
+          "core_type": "Core",
+          "definition": "The Carrier provides support for the Theme.  Movement of the Carrier results in movement of the Theme. 'The boat ferried the troops across the river.'",
+          "id": 4863
+        },
+        "Co-participant": {
+          "core_type": "Extra-Thematic",
+          "definition": "Co_participant is an entity that participates in a coordinated way in the same event as the primary protagonist, regardless of whether the protagonist, and hence the Co-participant, is more agent- or more undergoer-like.",
+          "id": 10930
+        },
+        "Constant_location": {
+          "core_type": "Peripheral",
+          "definition": "The Constant_location expresses the location of the Theme relative to the Carrier.  This relationship holds for the entire length of the carrying event.  'Karl took the books to the library in his car.' 'Karl carried the books to the library in his arms.'",
+          "id": 2122
+        },
+        "Degree": {
+          "core_type": "Extra-Thematic",
+          "definition": "This frame element selects some gradable attribute and modifies the expected value for it.",
+          "id": 10929
+        },
+        "Depictive": {
+          "core_type": "Extra-Thematic",
+          "definition": "Depictive identifies a phrase describing the Carrier, Agent or Theme.",
+          "id": 2125
+        },
+        "Distance": {
+          "core_type": "Peripheral",
+          "definition": "This FE identifies the Distance the Theme is carried.",
+          "id": 2126
+        },
+        "Duration": {
+          "core_type": "Extra-Thematic",
+          "definition": "Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others it is simply an undifferentiated state.",
+          "id": 10931
+        },
+        "Explanation": {
+          "core_type": "Extra-Thematic",
+          "definition": "Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. ",
+          "id": 10186
+        },
+        "Frequency": {
+          "core_type": "Extra-Thematic",
+          "definition": "This frame element is used to indicate the location of a participant in cases where the multiple participants of an event are not co-located in the typical fashion. ",
+          "id": 10899
+        },
+        "Goal": {
+          "core_type": "Core",
+          "definition": "Goal identifies the endpoint of the path.    'Karl carried the books to the library.'",
+          "id": 2118
+        },
+        "Manner": {
+          "core_type": "Peripheral",
+          "definition": "This FE identifies the Manner  in which the Carrier or Agent carries the Theme .",
+          "id": 2127
+        },
+        "Means": {
+          "core_type": "Peripheral",
+          "definition": "The actions the Agent takes to move the Theme. 'The books were taken to the library by helicopter deliveries.' 'I haul books by putting them on top of my head.'",
+          "id": 4866
+        },
+        "Particular_iteration": {
+          "core_type": "Extra-Thematic",
+          "definition": "Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states.",
+          "id": 10884
+        },
+        "Path": {
+          "core_type": "Core",
+          "definition": "Path along which carrying occurs. 'Karl carried the books across the campus.' ",
+          "id": 2120
+        },
+        "Period_of_iterations": {
+          "core_type": "Extra-Thematic",
+          "definition": "This FE is minimally distinct from Duration and Duration_of final_state in that the clause described is conveyed to be iterative.",
+          "id": 13038
+        },
+        "Place": {
+          "core_type": "Peripheral",
+          "definition": "The Place is the general area that serves as a setting for the specific motion of the Agent and Theme (with Source, Path, or Goal).   'Even in such a small port, these boats would transport many tons of trade-goods in to shore annually.'",
+          "id": 5453
+        },
+        "Purpose": {
+          "core_type": "Peripheral",
+          "definition": "The Purpose for which the Carrier or Agent carries the Theme . 'We had to carry the heavy weights all the way to the top of the hillto show our strength.'",
+          "id": 4850
+        },
+        "Source": {
+          "core_type": "Core",
+          "definition": "Source indicates the beginning of the path along which the Theme travels.    'Karl hauled the books from the library  to the office.' ",
+          "id": 2119
+        },
+        "Speed": {
+          "core_type": "Peripheral",
+          "definition": "The Speed is the rate at which the carrying or transporting occurs.",
+          "id": 4625
+        },
+        "Theme": {
+          "core_type": "Core",
+          "definition": "The objects being carried. 'Karl toted the books to the car.' ",
+          "id": 2121
+        },
+        "Time": {
+          "core_type": "Peripheral",
+          "definition": "The time in which the carrying event takes place.",
+          "id": 5454
+        }
+      },
+      "id": 240,
+      "lexical_units": [
+        {
+          "id": 17367,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "airlift",
+              "order": 1
+            }
+          ],
+          "name": "airlift.v",
+          "pos": "V"
+        },
+        {
+          "id": 12026,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "bear",
+              "order": 1
+            }
+          ],
+          "name": "bear.v",
+          "pos": "V"
+        },
+        {
+          "id": 9176,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "bike",
+              "order": 1
+            }
+          ],
+          "name": "bike.v",
+          "pos": "V"
+        },
+        {
+          "id": 9920,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "bring",
+              "order": 1
+            }
+          ],
+          "name": "bring.v",
+          "pos": "V"
+        },
+        {
+          "id": 15649,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "bus",
+              "order": 1
+            }
+          ],
+          "name": "bus.v",
+          "pos": "V"
+        },
+        {
+          "id": 4470,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "carry",
+              "order": 1
+            }
+          ],
+          "name": "carry.v",
+          "pos": "V"
+        },
+        {
+          "id": 4459,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "cart",
+              "order": 1
+            }
+          ],
+          "name": "cart.v",
+          "pos": "V"
+        },
+        {
+          "id": 9175,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "convey",
+              "order": 1
+            }
+          ],
+          "name": "convey.v",
+          "pos": "V"
+        },
+        {
+          "id": 8733,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "drive",
+              "order": 1
+            }
+          ],
+          "name": "drive.v",
+          "pos": "V"
+        },
+        {
+          "id": 8755,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "ferry",
+              "order": 1
+            }
+          ],
+          "name": "ferry.v",
+          "pos": "V"
+        },
+        {
+          "id": 12027,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "fetch",
+              "order": 1
+            }
+          ],
+          "name": "fetch.v",
+          "pos": "V"
+        },
+        {
+          "id": 8730,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "fly",
+              "order": 1
+            }
+          ],
+          "name": "fly.v",
+          "pos": "V"
+        },
+        {
+          "id": 12028,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "get",
+              "order": 1
+            }
+          ],
+          "name": "get.v",
+          "pos": "V"
+        },
+        {
+          "id": 4457,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "haul",
+              "order": 1
+            }
+          ],
+          "name": "haul.v",
+          "pos": "V"
+        },
+        {
+          "id": 4471,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "hump",
+              "order": 1
+            }
+          ],
+          "name": "hump.v",
+          "pos": "V"
+        },
+        {
+          "id": 8865,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "jet",
+              "order": 1
+            }
+          ],
+          "name": "jet.v",
+          "pos": "V"
+        },
+        {
+          "id": 4456,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "lug",
+              "order": 1
+            }
+          ],
+          "name": "lug.v",
+          "pos": "V"
+        },
+        {
+          "id": 13901,
+          "lexemes": [
+            {
+              "POS": "A",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "mobile",
+              "order": 1
+            }
+          ],
+          "name": "mobile.a",
+          "pos": "A"
+        },
+        {
+          "id": 8870,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "motor",
+              "order": 1
+            }
+          ],
+          "name": "motor.v",
+          "pos": "V"
+        },
+        {
+          "id": 8867,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "paddle",
+              "order": 1
+            }
+          ],
+          "name": "paddle.v",
+          "pos": "V"
+        },
+        {
+          "id": 13641,
+          "lexemes": [
+            {
+              "POS": "A",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "portable",
+              "order": 1
+            }
+          ],
+          "name": "portable.a",
+          "pos": "A"
+        },
+        {
+          "id": 8881,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "row",
+              "order": 1
+            }
+          ],
+          "name": "row.v",
+          "pos": "V"
+        },
+        {
+          "id": 8734,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "true",
+              "name": "schlep",
+              "order": 1
+            }
+          ],
+          "name": "schlep.v",
+          "pos": "V"
+        },
+        {
+          "id": 15650,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "shuttle",
+              "order": 1
+            }
+          ],
+          "name": "shuttle.v",
+          "pos": "V"
+        },
+        {
+          "id": 8732,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "take",
+              "order": 1
+            }
+          ],
+          "name": "take.v",
+          "pos": "V"
+        },
+        {
+          "id": 8738,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "tote",
+              "order": 1
+            }
+          ],
+          "name": "tote.v",
+          "pos": "V"
+        },
+        {
+          "id": 14508,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "true",
+              "name": "transport",
+              "order": 1
+            }
+          ],
+          "name": "transport.n",
+          "pos": "N"
+        },
+        {
+          "id": 8731,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "transport",
+              "order": 1
+            }
+          ],
+          "name": "transport.v",
+          "pos": "V"
+        },
+        {
+          "id": 8735,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "true",
+              "name": "truck",
+              "order": 1
+            }
+          ],
+          "name": "truck.v",
+          "pos": "V"
+        },
+        {
+          "id": 8739,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "trundle",
+              "order": 1
+            }
+          ],
+          "name": "trundle.v",
+          "pos": "V"
+        },
+        {
+          "id": 4458,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "wheel",
+              "order": 1
+            }
+          ],
+          "name": "wheel.v",
+          "pos": "V"
+        }
+      ]
+    },
+    "Scrutiny": {
+      "definition": "This frame concerns a Cognizer (a person or other intelligent being) paying close attention to something, the Ground, in order to discover and note its salient characteristics.  The Cognizer may be interested in a particular characteristic or entity, the Phenomenon, that belongs to the Ground or is contained in the Ground (or to ensure that such a property of entity is not present).  Some words in this frame allow alternate expressions of the Groundand the Phenomenon: 'We searched the yard  for my contact lens.'",
+      "frame_elements": {
+        "Cognizer": {
+          "core_type": "Core",
+          "definition": "The Cognizer pays attention to an entity in order to discover something about it. The FE is normally expressed as an External Argument:  'Leslie examined the glass for cracks.'",
+          "id": 128
+        },
+        "Degree": {
+          "core_type": "Extra-Thematic",
+          "definition": "This FE identifies the Degree to which the Cognizer scrutinizes the Ground.",
+          "id": 1500
+        },
+        "Direction": {
+          "core_type": "Extra-Thematic",
+          "definition": "Direction is used for all path-like expressions, except those indicating the location of the perceiver, that describe how the perceiver's attention is directed during the act of perception.  'The detective looked across the street at the suspect.'",
+          "id": 2335
+        },
+        "Ground": {
+          "core_type": "Core",
+          "definition": "The Cognizer pays attention to the Ground, so named because it serves as the background or context for the Phenomenon. This FE can be expressed as an NP Object or as a PP Complement. 'Leslie examined the glass for cracks.' 'Kim searched the woods for mushrooms.'",
+          "id": 129
+        },
+        "Instrument": {
+          "core_type": "Core",
+          "definition": "An entity directed by the Cognizer  that interacts with the Ground to accomplish the scrutiny.  'The temperature controller monitored the temperature with a calibrated silicon diode.'",
+          "id": 9143
+        },
+        "Manner": {
+          "core_type": "Peripheral",
+          "definition": "This FE identifies the Manner in which the Cognizer scrutinizes the Ground.",
+          "id": 1497
+        },
+        "Means": {
+          "core_type": "Peripheral",
+          "definition": "This FE is used for the Means by which the Cognizer to scrutinize the Ground. 'We analysed the sediment by putting it through the mass spec.'",
+          "id": 1498
+        },
+        "Medium": {
+          "core_type": "Core",
+          "definition": "The Medium is the piece of text or work in which the Cognizer pays attention to an entity in order to discover something about it. The FE is normally expressed as an External Argument:  'Chapter four examined the case for free speech.'",
+          "id": 7030
+        },
+        "Phenomenon": {
+          "core_type": "Extra-Thematic",
+          "definition": "Phenomenon identifies the property that belongs to an entity or that the entity contains. Typically, it is expressed as a for-PP. 'Leslie examined the glass for cracks.' 'Kim searched the woods for mushrooms.' ",
+          "id": 130
+        },
+        "Purpose": {
+          "core_type": "Extra-Thematic",
+          "definition": "Some of the words in this frame occur with a constituent that expresses the desired outcome of the Scrutiny.  Normally this constituent is a PP Complement headed by for or a to-marked VP Complement.  'You should inspect your mail to determine the outcome of the module transfer.'",
+          "id": 4511
+        },
+        "Time": {
+          "core_type": "Peripheral",
+          "definition": "The Time when the Cognizer is scrutinizing the Ground. ",
+          "id": 11990
+        }
+      },
+      "id": 31,
+      "lexical_units": [
+        {
+          "id": 439,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "analyse",
+              "order": 1
+            }
+          ],
+          "name": "analyse.v",
+          "pos": "V"
+        },
+        {
+          "id": 440,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "analysis",
+              "order": 1
+            }
+          ],
+          "name": "analysis.n",
+          "pos": "N"
+        },
+        {
+          "id": 4281,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "analyst",
+              "order": 1
+            }
+          ],
+          "name": "analyst.n",
+          "pos": "N"
+        },
+        {
+          "id": 12680,
+          "lexemes": [
+            {
+              "POS": "A",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "analytic",
+              "order": 1
+            }
+          ],
+          "name": "analytic.a",
+          "pos": "A"
+        },
+        {
+          "id": 4334,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "assay",
+              "order": 1
+            }
+          ],
+          "name": "assay.v",
+          "pos": "V"
+        },
+        {
+          "id": 8215,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "check",
+              "order": 1
+            }
+          ],
+          "name": "check.v",
+          "pos": "V"
+        },
+        {
+          "id": 11060,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "comb",
+              "order": 1
+            }
+          ],
+          "name": "comb.v",
+          "pos": "V"
+        },
+        {
+          "id": 8520,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "double-check",
+              "order": 1
+            }
+          ],
+          "name": "double-check.v",
+          "pos": "V"
+        },
+        {
+          "id": 17279,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "examination",
+              "order": 1
+            }
+          ],
+          "name": "examination.n",
+          "pos": "N"
+        },
+        {
+          "id": 15026,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "explore",
+              "order": 1
+            }
+          ],
+          "name": "explore.v",
+          "pos": "V"
+        },
+        {
+          "id": 6920,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "eyeball",
+              "order": 1
+            }
+          ],
+          "name": "eyeball.v",
+          "pos": "V"
+        },
+        {
+          "id": 11061,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "frisk",
+              "order": 1
+            }
+          ],
+          "name": "frisk.v",
+          "pos": "V"
+        },
+        {
+          "id": 13100,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "go",
+              "order": 1
+            }
+          ],
+          "name": "go [through].v",
+          "pos": "V"
+        },
+        {
+          "id": 4291,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "inspector",
+              "order": 1
+            }
+          ],
+          "name": "inspector.n",
+          "pos": "N"
+        },
+        {
+          "id": 445,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "investigate",
+              "order": 1
+            }
+          ],
+          "name": "investigate.v",
+          "pos": "V"
+        },
+        {
+          "id": 446,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "investigation",
+              "order": 1
+            }
+          ],
+          "name": "investigation.n",
+          "pos": "N"
+        },
+        {
+          "id": 447,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "look",
+              "order": 1
+            }
+          ],
+          "name": "look.v",
+          "pos": "V"
+        },
+        {
+          "id": 11592,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "monitor",
+              "order": 1
+            }
+          ],
+          "name": "monitor.v",
+          "pos": "V"
+        },
+        {
+          "id": 13743,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "true",
+              "name": "monitoring",
+              "order": 1
+            }
+          ],
+          "name": "monitoring.n",
+          "pos": "N"
+        },
+        {
+          "id": 10960,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "once-over",
+              "order": 1
+            }
+          ],
+          "name": "once-over.n",
+          "pos": "N"
+        },
+        {
+          "id": 448,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "perusal",
+              "order": 1
+            }
+          ],
+          "name": "perusal.n",
+          "pos": "N"
+        },
+        {
+          "id": 449,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "peruse",
+              "order": 1
+            }
+          ],
+          "name": "peruse.v",
+          "pos": "V"
+        },
+        {
+          "id": 4283,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "probe",
+              "order": 1
+            }
+          ],
+          "name": "probe.v",
+          "pos": "V"
+        },
+        {
+          "id": 15848,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "pry",
+              "order": 1
+            }
+          ],
+          "name": "pry.v",
+          "pos": "V"
+        },
+        {
+          "id": 11275,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "ransack",
+              "order": 1
+            }
+          ],
+          "name": "ransack.v",
+          "pos": "V"
+        },
+        {
+          "id": 17301,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "reconnaissance",
+              "order": 1
+            }
+          ],
+          "name": "reconnaissance.n",
+          "pos": "N"
+        },
+        {
+          "id": 4284,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "reconnoiter",
+              "order": 1
+            }
+          ],
+          "name": "reconnoitre.v",
+          "pos": "V"
+        },
+        {
+          "id": 15669,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "rifle",
+              "order": 1
+            }
+          ],
+          "name": "rifle.v",
+          "pos": "V"
+        },
+        {
+          "id": 4338,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "rummage",
+              "order": 1
+            }
+          ],
+          "name": "rummage.v",
+          "pos": "V"
+        },
+        {
+          "id": 450,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "scan",
+              "order": 1
+            }
+          ],
+          "name": "scan.v",
+          "pos": "V"
+        },
+        {
+          "id": 11276,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "scour",
+              "order": 1
+            }
+          ],
+          "name": "scour.v",
+          "pos": "V"
+        },
+        {
+          "id": 4341,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "scout",
+              "order": 1
+            }
+          ],
+          "name": "scout.v",
+          "pos": "V"
+        },
+        {
+          "id": 451,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "scrutinize",
+              "order": 1
+            }
+          ],
+          "name": "scrutinize.v",
+          "pos": "V"
+        },
+        {
+          "id": 452,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "scrutiny",
+              "order": 1
+            }
+          ],
+          "name": "scrutiny.n",
+          "pos": "N"
+        },
+        {
+          "id": 453,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "search",
+              "order": 1
+            }
+          ],
+          "name": "search.n",
+          "pos": "N"
+        },
+        {
+          "id": 454,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "search",
+              "order": 1
+            }
+          ],
+          "name": "search.v",
+          "pos": "V"
+        },
+        {
+          "id": 4337,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "sift",
+              "order": 1
+            }
+          ],
+          "name": "sift.v",
+          "pos": "V"
+        },
+        {
+          "id": 4335,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "skim",
+              "order": 1
+            }
+          ],
+          "name": "skim.v",
+          "pos": "V"
+        },
+        {
+          "id": 9870,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "true",
+              "name": "spy",
+              "order": 1
+            },
+            {
+              "POS": "ADV",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "out",
+              "order": 2
+            },
+            {
+              "POS": "ART",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "the",
+              "order": 3
+            },
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "land",
+              "order": 4
+            }
+          ],
+          "name": "spy out the land.v",
+          "pos": "V"
+        },
+        {
+          "id": 455,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "study",
+              "order": 1
+            }
+          ],
+          "name": "study.n",
+          "pos": "N"
+        },
+        {
+          "id": 456,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "study",
+              "order": 1
+            }
+          ],
+          "name": "study.v",
+          "pos": "V"
+        },
+        {
+          "id": 14006,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "surveillance",
+              "order": 1
+            }
+          ],
+          "name": "surveillance [entity].n",
+          "pos": "N"
+        },
+        {
+          "id": 13883,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "surveillance",
+              "order": 1
+            }
+          ],
+          "name": "surveillance.n",
+          "pos": "N"
+        },
+        {
+          "id": 457,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "survey",
+              "order": 1
+            }
+          ],
+          "name": "survey.n",
+          "pos": "N"
+        },
+        {
+          "id": 458,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "survey",
+              "order": 1
+            }
+          ],
+          "name": "survey.v",
+          "pos": "V"
+        },
+        {
+          "id": 4339,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "surveyor",
+              "order": 1
+            }
+          ],
+          "name": "surveyor.n",
+          "pos": "N"
+        },
+        {
+          "id": 8321,
+          "lexemes": [
+            {
+              "POS": "N",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "sweep",
+              "order": 1
+            }
+          ],
+          "name": "sweep.n",
+          "pos": "N"
+        },
+        {
+          "id": 8320,
+          "lexemes": [
+            {
+              "POS": "V",
+              "breakBefore": "false",
+              "headword": "false",
+              "name": "sweep",
+              "order": 1
+            }
+          ],
+          "name": "sweep.v",
+          "pos": "V"
+        },
+        {
+          "id": 13871,
+          "lexemes": [
+            {
+              "POS": "A",
+              "breakBefore": "false",
+              "headword": "true",
+              "name": "unmonitored",
+              "order": 1
+            }
+          ],
+          "name": "unmonitored.a",
+          "pos": "A"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "framenet_version": "1.7",
+    "scope": "Demo bring/search only; member-specific alignments",
+    "semlink_evidence": {
+      "alignments": [
+        {
+          "framenet": "Bringing",
+          "member": "take",
+          "verbnet": "bring-11.3"
+        },
+        {
+          "framenet": "Bringing",
+          "member": "bring",
+          "verbnet": "bring-11.3-1"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "check",
+          "verbnet": "search-35.2"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "probe",
+          "verbnet": "search-35.2"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "scour",
+          "verbnet": "search-35.2"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "search",
+          "verbnet": "search-35.2"
+        }
+      ],
+      "demo_seeds": [
+        {
+          "framenet": "Bringing",
+          "member": "bring",
+          "verbnet": "bring-11.3-1"
+        },
+        {
+          "framenet": "Scrutiny",
+          "member": "search",
+          "verbnet": "search-35.2"
+        }
+      ],
+      "existing_snapshot": "cmoc/knowledge/robokgnet/data/semlink_subset.json",
+      "note": "Exact class/member mappings only; source contains no role-level alignment.",
+      "parsed_table_sha256": "028d197ee8acb5366d1986e4c68a8dd7faab8960780d18efca03e0578a71ea4f",
+      "retrieved": "2026-09-26T12:01:25.469254+00:00",
+      "source": "https://raw.githubusercontent.com/cu-clear/semlink/master/instances/vn-fn2.json"
+    }
+  }
+}

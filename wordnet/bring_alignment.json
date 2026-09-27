@@ -1,0 +1,40 @@
+{
+  "action": "bring",
+  "framenet": "Bringing",
+  "member": "bring",
+  "resolver": "CMOC tools/semantic_bridge.py: _find_synset / _synsets_for_member; append :: to abbreviated verb keys and use WordNet lemma_from_key; no lemma search",
+  "semlink": {
+    "existing_snapshot": "cmoc/knowledge/robokgnet/data/semlink_subset.json",
+    "frames": [
+      "Bringing"
+    ],
+    "key": "11.3-1-bring",
+    "parsed_table_sha256": "028d197ee8acb5366d1986e4c68a8dd7faab8960780d18efca03e0578a71ea4f",
+    "retrieved": "2026-09-26T12:01:25.469254+00:00",
+    "source": "https://raw.githubusercontent.com/cu-clear/semlink/master/instances/vn-fn2.json"
+  },
+  "senses": [
+    {
+      "sense_key": "bring%2:35:00::",
+      "synset_id": "bring.v.04"
+    },
+    {
+      "sense_key": "bring%2:35:02::",
+      "synset_id": "bring.v.06"
+    },
+    {
+      "sense_key": "bring%2:38:00::",
+      "synset_id": "bring.v.01"
+    }
+  ],
+  "verbnet": "bring-11.3-1",
+  "verbnet_parent": "bring-11.3",
+  "verbnet_source": {
+    "file": "verbnet/bring-11.3.xml",
+    "member_wn": "bring%2:38:00 bring%2:35:00 bring%2:35:02",
+    "source": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/verbnet.zip",
+    "version": "2.1",
+    "xml_sha256": "b5ae802b6f4ced155404dfc8ba38b54c4533bce1d37dda3350608d3b8245f9b2"
+  },
+  "wordnet_version": "3.0"
+}
