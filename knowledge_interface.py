@@ -41,6 +41,12 @@ class KnowledgeInterface:
         """Return direct superclass IDs, without recursive expansion."""
         return self.get_concept(concept_id)["superclass"]
 
+    def get_subclasses(self, concept_id):
+        """Return direct stored subclass IDs; never infer synonym relations."""
+        self.get_concept(concept_id)  # Preserve unknown-ID validation.
+        return sorted(node['id'] for node in self._concepts['nodes'].values()
+                      if concept_id in node.get('superclass', []))
+
     def get_locations(self, concept_id):
         """Return (synset, count) pairs; break equal-count ties by synset ID."""
         histogram = self._concepts["nodes"][concept_id]["qualities"]["location"] or {}
